@@ -27,14 +27,15 @@
 	
 	</head>
 	<body>
-		<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vR6bxEVo_wM4yPcqBuEBsvNJhw0LSuGbB3wIkd_bJZ4pDRop_9feG98QuqOcGnLazumChiwOaD4MFnq/pubhtml">See the source google sheet for this map</a>
+		<a href="">See the source google sheet for this map</a>
 		<div id="map"></div>
 		<div class="popupGraph" id="log" width=100% height=100px></div>
 		<script>
 			var mapdiv="map"
-			sheetkey="1m1Y27ctV6W74ZOVBtLVqgb_J_MlY_jzXE__PS0czQgg"
+			sheetkey="1uAN9n4zAP-1TrILlbvTVDy5eJuvmavjWDh6XziiffMY"
 			var url="https://docs.google.com/spreadsheets/d/"+sheetkey+"/pubhtml"
 			var mymap = L.map('map').setView([25.509815,77.201317 ], 6);
+            markers={}
         	setupMojoMap(mymap,url,urltype="google")
 		</script>
 	</body>
