@@ -39,6 +39,7 @@ Sample Mojomap spreadsheets
 https://drive.google.com/drive/u/1/folders/1sWy5x1nbcOXa9tUUI_ob8z7qVVqqRv3a
 To create your own, simply copy one of the sheets in the folder above to your drive. Make sure to publish the sheet to the web from the "File" menu. 
 See tutorial here https://support.google.com/docs/answer/183965
+
 Making Changes
 ---------------------------
 Once you have replicated the folder structure
