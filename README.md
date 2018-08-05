@@ -1,7 +1,7 @@
 # Mojomaps
 Maps combining data as layers on a google spreadsheet
 
-##Development mode howto
+## Development mode howto
 
 tools/createmap.py
 ------------------
@@ -37,9 +37,11 @@ Folder Structure for a Mojomap
 Sample Mojomap spreadsheets
 ---------------------------
 https://drive.google.com/drive/u/1/folders/1sWy5x1nbcOXa9tUUI_ob8z7qVVqqRv3a
+
 To create your own, simply copy one of the sheets in the folder above to your drive. Make sure to publish the sheet to the web from the "File" menu. 
+
 See tutorial here https://support.google.com/docs/answer/183965
 
 Making Changes
 ---------------------------
-Once you have replicated the folder structure
+Once you have replicated the folder structure and linked mojomaps.html (or your filename of choice) to your spreadsheet, you can add and remove layers as rows in the spreadsheet. Anyone who has edit rights on the spreadsheet can also make those changes. Changes will be picked up by the map on refreshing the page. 
