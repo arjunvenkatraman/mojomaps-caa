@@ -60,3 +60,4 @@ Some sample videos
 ------------------
 1. How to turn visibility on and off for different layers  - https://www.youtube.com/watch?v=Sd3YFHkVxlk
 2. How to adjust centering and zoom for the base layer - https://www.youtube.com/watch?v=UrVXHFmZsWs
+3. How to make your own mojomap and add geojson layers - https://www.youtube.com/watch?v=SlQ_yQnvYOY
