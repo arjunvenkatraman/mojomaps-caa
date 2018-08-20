@@ -11,6 +11,8 @@
    
 
 }*/
+
+
 function setupMojoMap(map,url,urltype="google"){
 	
 	//console.log(lmap)
@@ -22,6 +24,9 @@ function setupMojoMap(map,url,urltype="google"){
 
 }
 
+
+
+
 //Get different types of layer from GoogleSheet Data
 function setMapLayersFromGoogleDoc(map,data,tabletop){
 		log("Setting map layers from sheet")
@@ -29,7 +34,8 @@ function setMapLayersFromGoogleDoc(map,data,tabletop){
 		baselayer=getBaseLayerGD(data)
 		shapelayers=getShapeLayersGD(data)
 		pointlayers=getPointLayersGD(data)
-		if (baselayer.display=="TRUE"){
+        layercontrol = L.control.layers().addTo(map)
+        if (baselayer.display=="TRUE"){
 			//map=addBaseMapLayer(mapdiv,baselayer)
 			addBaseMapLayer(map,baselayer)
 		}
@@ -46,6 +52,10 @@ function setMapLayersFromGoogleDoc(map,data,tabletop){
 				addPointLayerURL(map,this.url,this.defaultmarker,this.layername,this.callbackfuncname)
 			}
 		});
+        //console.log(baselayers)
+        //console.log(overlays)
+        
+        
 }
 
 //Get the base layer
@@ -91,6 +101,7 @@ function addBaseMapLayer(map,basemaplayer){
 		map.setView([basemaplayer.clat,basemaplayer.clong ], basemaplayer.zoom);
 		tilelayer=getTileLayer(basemaplayer.maptype)
 		map.addLayer(tilelayer);
+        layercontrol.addBaseLayer(tilelayer,"Mapbox")
 }
 
 
@@ -206,11 +217,13 @@ function addShapeLayer(map,featureCollection,layername,style){
                   dataType: 'json',
                   data: null,
                   success:  function(data, textStatus, request) {
-					  lstyle=JSON.parse(style)
-					  console.log(lstyle)
-                    L.geoJson(data, { style: lstyle
+					           lstyle=JSON.parse(style)
+					           console.log(lstyle)
+                               overlay=L.geoJson(data, { style: lstyle
 						
-						}).addTo(map);
+						          });
+                            overlay.addTo(map);
+                            layercontrol.addOverlay(overlay,layername);
                   }
                 }); 
 	
