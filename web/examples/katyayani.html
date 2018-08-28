@@ -1,0 +1,41 @@
+<html>
+	<head>
+	<meta charset="utf-8"/>
+	<!--Including cloud versions of Leaflet, D3 and JQuery Scripts-->
+	<!-- Current Versions - Leaflet 1.2.0, D3 V4, JQuery 2.1.1
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	-->
+	
+	<!--Including Local Versions of Leaflet, D3 and JQuery Scripts -->
+	<!-- Current Versions - Leaflet 1.2.0, D3 V4.12.0, JQuery 3.2.1-->
+	<link rel="stylesheet" href="leaflet/leaflet.css" />
+	<script src="../leaflet/leaflet.js"></script>
+	<script src="../js/jquery-3.2.1.js"></script>
+	<script src="../js/d3.js"></script>
+	
+	<!--Including our own copy of jsoma's tabletop script-->
+	<script src="../js/tabletop.js"></script>
+
+	
+	
+	<!--Including our own stylesheet and script -->
+	<link rel="stylesheet" href="../css/mojomaps.css" />
+	<script src="../js/mojomaps.js"></script>
+	
+	</head>
+	<body>
+		<a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vR6bxEVo_wM4yPcqBuEBsvNJhw0LSuGbB3wIkd_bJZ4pDRop_9feG98QuqOcGnLazumChiwOaD4MFnq/pubhtml">See the source google sheet for this map</a>
+		<div id="map"></div>
+		<div class="popupGraph" id="log" width=100% height=100px></div>
+		<script>
+			var mapdiv="map"
+			sheetkey="1m1Y27ctV6W74ZOVBtLVqgb_J_MlY_jzXE__PS0czQgg"
+			var url="https://docs.google.com/spreadsheets/d/"+sheetkey+"/pubhtml"
+			//var url="https://spreadsheets.google.com/feeds/list/"+spreadsheet+"/od6/public/basic?alt=json"
+			setupMojoMap(mapdiv,url,urltype="google")
+		</script>
+	</body>
+</html>
