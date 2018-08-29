@@ -13,7 +13,7 @@
 }*/
 
 
-function setupMojoMap(map,url,urltype="google"){
+function setupMojoMap(map,url,urltype){
 	
 	//console.log(lmap)
 	log("Setting up the mojomap...")
@@ -34,14 +34,24 @@ function setMapLayersFromGoogleDoc(map,data,tabletop){
 		baselayer=getBaseLayerGD(data)
 		shapelayers=getShapeLayersGD(data)
 		pointlayers=getPointLayersGD(data)
-        layercontrol = L.control.layers().addTo(map)
+        //layercontrol = L.control.layers().addTo(map)
+        
+        layergroups={baselayers:{"Base Map":baselayer},overlays:{}}
+        for (var i=0;i<groupnames.length;i++){
+            
+            layergroups['overlays'][groupnames[i]]=L.layerGroup()
+            
+        }
+        console.log(layergroups)
+        layercontrol=L.control.layers().addTo(map);
+        
         if (baselayer.display=="TRUE"){
 			//map=addBaseMapLayer(mapdiv,baselayer)
 			addBaseMapLayer(map,baselayer)
 		}
 		$(shapelayers).each(function(){
 			if(this.display=="TRUE"){
-				addShapeLayer(map,this.url,this.layername,this.style)
+				addShapeLayer(map,this.url,this.layername,this.groupname,this.style)
 			}
 		});
 		$(pointlayers).each(function(){
@@ -60,6 +70,7 @@ function setMapLayersFromGoogleDoc(map,data,tabletop){
 
 //Get the base layer
 function getBaseLayerGD(data){
+    //console.log(data)
 	for (row in data){
 		if(data[row].layertype=="baselayer"){
 			baselayer=data[row]
@@ -91,6 +102,7 @@ function getPointLayersGD(data){
 			pointlayers.push(pointlayer)
 		}
 	}
+    
 	return pointlayers
 }
 
@@ -101,7 +113,7 @@ function addBaseMapLayer(map,basemaplayer){
 		map.setView([basemaplayer.clat,basemaplayer.clong ], basemaplayer.zoom);
 		tilelayer=getTileLayer(basemaplayer.maptype)
 		map.addLayer(tilelayer);
-        layercontrol.addBaseLayer(tilelayer,"Mapbox")
+        //layercontrol.addBaseLayer(tilelayer,"Mapbox")
 }
 
 
@@ -200,10 +212,10 @@ function addShapeLayer(map,featureCollection,layername){
 }
 */
 
-function addShapeLayer(map,featureCollection,layername,style){
+function addShapeLayer(map,featureCollection,layername,layergroup,style){
 	log("Adding shape layer " + layername)
 	
-	console.log(featureCollection)
+	//console.log(featureCollection)
 	
 
 	$.ajax({
@@ -218,12 +230,15 @@ function addShapeLayer(map,featureCollection,layername,style){
                   data: null,
                   success:  function(data, textStatus, request) {
 					           lstyle=JSON.parse(style)
-					           console.log(lstyle)
+					           //console.log(lstyle)
                                overlay=L.geoJson(data, { style: lstyle
 						
 						          });
                             overlay.addTo(map);
-                            layercontrol.addOverlay(overlay,layername);
+                                console.log(layergroup)
+                            layergroups['overlays'][layergroup].addLayer(overlay)
+                                
+                            layercontrol.addOverlay(layergroups.overlays,"Overlays");
                   }
                 }); 
 	
