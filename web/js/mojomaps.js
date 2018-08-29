@@ -2,58 +2,64 @@
 //markerlayers=[]
 
 /*function setupMojoMap(mapdiv,url,urltype="google"){
-	
-	
+
+
 	log("Setting up the mojomap...")
 	Tabletop.init( { key: url,
                    callback: setMapLayersFromGoogleDoc,
                    simpleSheet: true } )
-   
+
 
 }*/
 
 
 function setupMojoMap(map,url,urltype){
-	
+
 	//console.log(lmap)
 	log("Setting up the mojomap...")
 	Tabletop.init( { key: url,
                    callback: function(data,tabletop){setMapLayersFromGoogleDoc(map,data,tabletop)},
                    simpleSheet: true } )
-   
+
 
 }
-
-
 
 
 //Get different types of layer from GoogleSheet Data
 function setMapLayersFromGoogleDoc(map,data,tabletop){
 		log("Setting map layers from sheet")
-		//console.log(lmap)	
+		//console.log(lmap)
 		baselayer=getBaseLayerGD(data)
 		shapelayers=getShapeLayersGD(data)
 		pointlayers=getPointLayersGD(data)
-        //layercontrol = L.control.layers().addTo(map)
-        
-        layergroups={baselayers:{"Base Map":baselayer},overlays:{}}
-        for (var i=0;i<groupnames.length;i++){
-            
-            layergroups['overlays'][groupnames[i]]=L.layerGroup()
-            
-        }
-        console.log(layergroups)
-        layercontrol=L.control.layers().addTo(map);
-        
-        if (baselayer.display=="TRUE"){
-			//map=addBaseMapLayer(mapdiv,baselayer)
+    //layercontrol = L.control.layers().addTo(map)
+
+		layergroups={baselayers:{"Base Map":baselayer},overlays:{}}
+		var options = {
+					// Show a checkbox next to non-exclusive group labels for toggling all
+					groupCheckboxes: true
+		};
+
+    for (var i=0;i<groupnames.length;i++){
+          layergroups['overlays'][groupnames[i]]=L.layerGroup()
+					//layercontrol.addOverlay(layergroups['overlays'][groupnames[i]],groupnames[i]);
+    }
+    //console.log(layergroups)
+			layercontrol=L.control.groupedLayers().addTo(map);
+    if (baselayer.display=="TRUE"){
+		//map=addBaseMapLayer(mapdiv,baselayer)
 			addBaseMapLayer(map,baselayer)
 		}
 		$(shapelayers).each(function(){
 			if(this.display=="TRUE"){
 				addShapeLayer(map,this.url,this.layername,this.groupname,this.style)
+				//layercontrol.addOverlay(layergroups['overlays'])
 			}
 		});
+		for (var i=0;i<groupnames.length;i++){
+          layercontrol.addOverlay(layergroups['overlays'][groupnames[i]],groupnames[i]);
+    }
+
 		$(pointlayers).each(function(){
 			if(this.display=="TRUE"){
 				if (this.defaultmarker==""){
@@ -64,8 +70,8 @@ function setMapLayersFromGoogleDoc(map,data,tabletop){
 		});
         //console.log(baselayers)
         //console.log(overlays)
-        
-        
+
+
 }
 
 //Get the base layer
@@ -74,12 +80,11 @@ function getBaseLayerGD(data){
 	for (row in data){
 		if(data[row].layertype=="baselayer"){
 			baselayer=data[row]
-			
+
 		}
 	}
 	return baselayer
 }
-
 
 //Get all the shape layers
 function getShapeLayersGD(data){
@@ -102,10 +107,9 @@ function getPointLayersGD(data){
 			pointlayers.push(pointlayer)
 		}
 	}
-    
+
 	return pointlayers
 }
-
 
 //Add the base layer to the map
 function addBaseMapLayer(map,basemaplayer){
@@ -115,7 +119,6 @@ function addBaseMapLayer(map,basemaplayer){
 		map.addLayer(tilelayer);
         //layercontrol.addBaseLayer(tilelayer,"Mapbox")
 }
-
 
 //Get the correct tile layer based on maptype
 function getTileLayer(maptype){
@@ -128,8 +131,6 @@ function getTileLayer(maptype){
 	return tilelayer
 }
 
-
-		
 //Functions to get tile laters
 function getosmmap(){ //add a tile layer to add to our map, in this case it's the 'standard' OpenStreetMap.org tile server
 	log("Getting OSM map log")
@@ -139,7 +140,7 @@ function getosmmap(){ //add a tile layer to add to our map, in this case it's th
 	})
 	return osmmap
 }
-		
+
 function getmapboxmap(accesstoken){ //add a tile layer to add to our map, in this case it's the MapBox tile server
 	log("Getting mapbox tile layer")
 	mapboxmap=L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -150,7 +151,7 @@ function getmapboxmap(accesstoken){ //add a tile layer to add to our map, in thi
 	});
 	return mapboxmap
 }
-		
+
 //Functions to work with shape layers
 /*
 function addShapeLayer(map,featureCollection,layername){
@@ -163,15 +164,15 @@ function addShapeLayer(map,featureCollection,layername){
 							.data(collection.features)
 							.enter().append("path")
 							.attr("id",function(d){return d.properties.mojomapid});
-			
+
 		});
 	}
 	else{
 		var svg = d3.select(map.getPanes().overlayPane).append("svg")
 		var g = svg.append("g").attr("class", "leaflet-zoom-hide");
-	
+
 		d3.json(featureCollection, function(error, collection) {
-			
+
 			if (error) throw error;
 			var transform = d3.geoTransform({point: projectPoint}),
 				path = d3.geoPath().projection(transform);
@@ -181,12 +182,12 @@ function addShapeLayer(map,featureCollection,layername){
 							.enter().append("path")
 							.attr("class", "shape")
 							.attr("id",function(d){return d.properties.mojomapid});
-							
+
 			map.on("moveend", reset);
 			reset();
 			// Reposition the SVG to cover the features.
 			function reset() {
-				
+
 				var bounds = path.bounds(collection),
 					topLeft = bounds[0],
 					bottomRight = bounds[1];
@@ -196,8 +197,8 @@ function addShapeLayer(map,featureCollection,layername){
 					.style("top", topLeft[1] + "px");
 				g.attr("transform", "translate(" + -topLeft[0] + "," + -topLeft[1] + ")");
 				feature.attr("d", path);
-				
-			
+
+
 			}
 
 				// Use Leaflet to implement a D3 geometric transformation.
@@ -205,7 +206,7 @@ function addShapeLayer(map,featureCollection,layername){
 				var point = map.latLngToLayerPoint(new L.LatLng(y, x));
 				this.stream.point(point.x, point.y);
 			}
-				
+
 		});
 
 	}
@@ -214,10 +215,7 @@ function addShapeLayer(map,featureCollection,layername){
 
 function addShapeLayer(map,featureCollection,layername,layergroup,style){
 	log("Adding shape layer " + layername)
-	
 	//console.log(featureCollection)
-	
-
 	$.ajax({
                   url: featureCollection,
                   beforeSend: function(xhr){
@@ -232,18 +230,22 @@ function addShapeLayer(map,featureCollection,layername,layergroup,style){
 					           lstyle=JSON.parse(style)
 					           //console.log(lstyle)
                                overlay=L.geoJson(data, { style: lstyle
-						
 						          });
-                            overlay.addTo(map);
-                                console.log(layergroup)
-                            layergroups['overlays'][layergroup].addLayer(overlay)
-                                
-                            layercontrol.addOverlay(layergroups.overlays,"Overlays");
+                      overlay.addTo(map);
+                      console.log(layergroups['overlays'][layergroup])
+											if(layergroups['overlays'][layergroup]){
+												layergroups['overlays'][layergroup].addLayer(overlay)
+												
+
+												//layercontrol.addOverlay(overlay,layername,layergroup);
+
+											}
+
                   }
-                }); 
-	
-	
-	
+                });
+
+
+
 }
 //Functions to work with points layers
 
@@ -258,16 +260,16 @@ function addPointLayerURL(map,url,defaultmarker,layername,callbackfuncname="addP
 	Tabletop.init( { key: url,
                    callback: function(data,tabletop){window[callbackfuncname](map,defaultmarker,data,tabletop)},
                    simpleSheet: true } )
-	
-	
+
+
 }
 
 
 
 
 //Add a point layer to the map
-function addPointLayer(map,defaultmarker,data,tabletop){	
-	
+function addPointLayer(map,defaultmarker,data,tabletop){
+
 	featureCollection=getPointsAsGeoJson(data)
 	if(map==mapdiv){
 		//whattodoifnobaselayer
@@ -275,11 +277,11 @@ function addPointLayer(map,defaultmarker,data,tabletop){
 	}
 	else
 	{
-			markerlayer=L.geoJson(featureCollection, 
+			markerlayer=L.geoJson(featureCollection,
 			{
 				onEachFeature : function(feature,layer)
 								{
-									
+
 									markers[feature['properties']['devname']]=layer
 									devicon=L.divIcon({
 												className : "icon-div",
@@ -287,12 +289,12 @@ function addPointLayer(map,defaultmarker,data,tabletop){
 												})
 									layer.setIcon(devicon)
 									//console.log(layer.id)
-						
+
 								}
-				}).addTo(map)			
-			//console.log(map)	
+				}).addTo(map)
+			//console.log(map)
 	}
-	
+
 	return markerlayer
 
 }
