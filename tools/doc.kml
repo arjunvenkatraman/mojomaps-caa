@@ -1,0 +1,4994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CFTPP.kmz</name>
+	<open>1</open>
+	<Style id="sn_ylw-pushpin40">
+	</Style>
+	<Style id="sh_pink-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ltblu-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ltblu-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ltblu-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_grn-pushpin30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-pushpin31</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin50</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin50">
+		<IconStyle>
+			<scale>1.2</scale>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_grn-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_pink-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_grn-pushpin31">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_pink-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_pink-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_pink-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/purple-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ltblu-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ltblu-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>CFTPP</name>
+		<open>1</open>
+		<Folder>
+			<name>Announced</name>
+			<Folder>
+				<name>Andhra Pradesh</name>
+				<Placemark>
+					<name>AP01</name>
+					<open>1</open>
+					<description>Gunipudi power station (Suryachakra Thermal Energy(Andhra) Pvt Ltd.)
+Gunupudi	Visakhapatnam	Andhra Pradesh
+1320mw</description>
+					<styleUrl>#msn_ylw-pushpin200</styleUrl>
+					<Point>
+						<coordinates>82.62438599999999,17.300117,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Chhattisgarh</name>
+				<Placemark>
+					<name>CH 13</name>
+					<description>Salora power station (Vandana Vidyut Ltd.)	
+Salora, Chhuri, and Dhanras	
+Korba	
+Chhattisgarh
+1x660 = 660 MW {1200 MW}</description>
+					<LookAt>
+						<longitude>82.60623981325256</longitude>
+						<latitude>22.48995192540441</latitude>
+						<altitude>0</altitude>
+						<heading>5.65364228478636e-009</heading>
+						<tilt>0</tilt>
+						<range>1352.579996553884</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin200</styleUrl>
+					<Point>
+						<coordinates>82.60623981325256,22.48995192540441,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gujarat</name>
+				<Placemark>
+					<name>GU 03</name>
+					<open>1</open>
+					<description>Bhatvadia power station ( Universal Crescent Power Pvt. Ltd.)	
+Bhatvadia	
+Jamnagar	
+Gujarat
+4x660 =1320 MW {2490 MW}</description>
+					<LookAt>
+						<longitude>70.06889750550253</longitude>
+						<latitude>22.46543012527211</latitude>
+						<altitude>0</altitude>
+						<heading>-0.002379015674834039</heading>
+						<tilt>0</tilt>
+						<range>1222.990761199339</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin200</styleUrl>
+					<Point>
+						<coordinates>70.06889750550253,22.46543012527211,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 04</name>
+					<description>N R Agarwal Industries Ltd.	
+Sarigam &amp; Angam	
+Valsad	
+Gujarat
+15 MW</description>
+					<LookAt>
+						<longitude>72.86657175295588</longitude>
+						<latitude>20.29671104661911</latitude>
+						<altitude>0</altitude>
+						<heading>0.001698327445978278</heading>
+						<tilt>0</tilt>
+						<range>4627.481700976352</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin200</styleUrl>
+					<Point>
+						<coordinates>72.86528465033297,20.30022506768419,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Jharkhand</name>
+				<Placemark>
+					<name>#JH01</name>
+					<open>1</open>
+					<description>Kohinoor Power Pvt. Ltd.	Saraikela	Kuchidih	Jharkhand	150MW</description>
+					<LookAt>
+						<longitude>86.02598038916551</longitude>
+						<latitude>22.90938447598133</latitude>
+						<altitude>0</altitude>
+						<heading>0.008869848044851927</heading>
+						<tilt>29.99694838116557</tilt>
+						<range>432.9671553454872</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin200</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>86.02726666666666,22.90982222222222,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Madhya Pradesh</name>
+				<open>1</open>
+			</Folder>
+			<Folder>
+				<name>Maharashtra</name>
+				<open>1</open>
+			</Folder>
+			<Folder>
+				<name>Tamil Nadu</name>
+				<Placemark>
+					<name>TN 21</name>
+					<description>Neyveli Lignite	
+Sirkazhi	
+Nagapattina 	
+Tamil Nadu
+2x1000 = 2000 MW</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T11:19:28.350074665Z</begin>
+							<end>2016-07-26T11:19:28.550082077Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>79.72974880809151</longitude>
+						<latitude>11.22996512015377</latitude>
+						<altitude>0</altitude>
+						<heading>-2.448633119240814e-005</heading>
+						<tilt>0</tilt>
+						<range>1037.667318836771</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin200</styleUrl>
+					<Point>
+						<coordinates>79.72974880809151,11.22996512015377,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Operational</name>
+			<LookAt>
+				<longitude>78.44670731243862</longitude>
+				<latitude>19.73822403527684</latitude>
+				<altitude>0</altitude>
+				<heading>8.387662991745805e-008</heading>
+				<tilt>0</tilt>
+				<range>3888301.812282445</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<Folder>
+				<name>Andhra Pradesh</name>
+				<Placemark>
+					<name>AP09</name>
+					<open>1</open>
+					<description>Dr. Narla Tata Rao Thermal power station
+Ibrahimpatnam	Krishna 	Andhra Pradesh
+2560MW(210X6+500)MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>80.54183183333333,16.597681,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AP08</name>
+					<open>1</open>
+					<description>Sitapuram Power Plant
+Sitapuram	Nalgonda	Andhra Pradesh
+43MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>80.04083183333333,16.830307,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AP07</name>
+					<open>1</open>
+					<description>Sri Damodaram Sanjeevaiah Thermal Power Station
+Nelaturu 	Nellore	Andhra Pradesh
+2400 MW(2x800MW) OPERATIONAL</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>80.12143283333333,14.32709,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AP06</name>
+					<open>1</open>
+					<description>Hinduja National Power Corporation Limited Power Plant
+Pavalavasa	Visakhapatnam	Andhra Pradesh
+1040MW0(520x2)</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>83.13946900000001,17.56430383333333,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AP05</name>
+					<open>1</open>
+					<description>Bander power station (Thermal Powertech (India) Ltd.)
+Pynampuram	Nellore	Andhra Pradesh
+1320MW(2X660MW)</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>80.14308583333335,14.351195,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AP04</name>
+					<open>1</open>
+					<description>Meenakshi Energy Thermal Power Project
+Thammenapatriam	Nellore	Andhra Pradesh
+300MW(2X150 MW)</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>80.08946388888889,14.2059,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AP02</name>
+					<open>1</open>
+					<description>Rayalaseema Thermal Power Project
+V.V. Nagar	Kadapa	Andhra Pradesh
+1050MW(5X210MW)</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>78.45936383333334,14.69728183333333,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Bihar</name>
+				<open>1</open>
+				<Placemark>
+					<name>BI 04</name>
+					<description>Kanti Thermal Power Station (Kanti Bijlee Utpadan Nigam Ltd.)	
+Kanti	
+Muzaffarpur	
+Bihar
+610 = (2x110 {220 MW} + 2x195 {390 MW})</description>
+					<LookAt>
+						<longitude>85.30330131532398</longitude>
+						<latitude>26.19476999225134</latitude>
+						<altitude>0</altitude>
+						<heading>-9.37092272499488e-009</heading>
+						<tilt>0</tilt>
+						<range>1158.496879832682</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>85.30330131532398,26.19476999225135,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BI 05</name>
+					<description>Barh Super Thermal Power Station	
+Barh	
+Patna	
+Bihar
+2x660 = 1320 MW {3300 MW}</description>
+					<LookAt>
+						<longitude>85.74453179742086</longitude>
+						<latitude>25.48630089051889</latitude>
+						<altitude>0</altitude>
+						<heading>-0.01227342785991789</heading>
+						<tilt>0</tilt>
+						<range>3662.367382564161</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>85.74453179742086,25.48630089051889,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BI 06</name>
+					<description>Kahalgaon Super Thermal Power Station	
+Kahalgaon	
+Bhagalpur	
+Bihar
+2340 MW = (4x210 {840 MW} + 3x500 {1500})</description>
+					<LookAt>
+						<longitude>87.26459027761727</longitude>
+						<latitude>25.24000488123994</latitude>
+						<altitude>0</altitude>
+						<heading>-7.145900068819071e-007</heading>
+						<tilt>0</tilt>
+						<range>1746.878431284388</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>87.26459027761727,25.24000488123994,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Chhattisgarh</name>
+				<Placemark>
+					<name>CH 30</name>
+					<open>1</open>
+					<description>Kasaipalli power station	
+Kasaipalli	
+Korba	
+Chhattisgarh
+270 MW (2x135)</description>
+					<LookAt>
+						<longitude>82.55489999996013</longitude>
+						<latitude>22.38894999980922</latitude>
+						<altitude>0</altitude>
+						<heading>-1.519509999069196e-011</heading>
+						<tilt>0</tilt>
+						<range>1303.700503489631</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.55489999996014,22.38894999980923,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 29</name>
+					<open>1</open>
+					<description>KSK Mahanadi Power Project (Akaltara Ultra Mega Power Project)	
+Nariyara	
+Janjgir-Champa	
+Chhattisgarh
+2x600 = 1200 MW {3600 MW }</description>
+					<LookAt>
+						<longitude>82.40906399989194</longitude>
+						<latitude>21.96029583351563</latitude>
+						<altitude>0</altitude>
+						<heading>-4.039503230126257e-011</heading>
+						<tilt>0</tilt>
+						<range>1265.964244412166</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.40906399989196,21.96029583351563,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 28</name>
+					<open>1</open>
+					<description>Chakabura power station	
+Chakabura 	
+Korba	
+Chhattisgarh
+1x30 = 30 MW {60 MW}</description>
+					<Camera>
+						<longitude>82.55324883170711</longitude>
+						<latitude>22.39365299565272</latitude>
+						<altitude>2.456460389737716</altitude>
+						<heading>-171.3883673146723</heading>
+						<tilt>0.1486420834089353</tilt>
+						<roll>179.9999998088665</roll>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</Camera>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.55324881967897,22.39365292127317,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 27</name>
+					<open>1</open>
+					<description>Hasdeo Thermal Power Station	
+Korba West	
+Korba	
+Chhattisgarh
+840 MW (4x210)</description>
+					<LookAt>
+						<longitude>82.68862160163012</longitude>
+						<latitude>22.41248627221452</latitude>
+						<altitude>0</altitude>
+						<heading>4.331051557987957e-009</heading>
+						<tilt>0</tilt>
+						<range>1450.09389275882</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.68862160163013,22.41248627221452,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 26</name>
+					<open>1</open>
+					<description>Dr Shyama Prasad Mukharjee Thermal Power Station(CSPGC)	
+Korba East	
+Korba	
+Chhattisgarh
+500 MW (2x250)</description>
+					<LookAt>
+						<longitude>82.72110681399177</longitude>
+						<latitude>22.36999609179015</latitude>
+						<altitude>0</altitude>
+						<heading>-4.77513908958798e-008</heading>
+						<tilt>0</tilt>
+						<range>1529.214073285714</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.72110681399177,22.36999609179015,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 25</name>
+					<open>1</open>
+					<description>NSPCL Bhilai Power Plant	
+Durg	
+Bhilai	
+Chhattisgarh
+274 MW (1x14 + 2x30 {60 MW} + 2x250 {500 MW})</description>
+					<LookAt>
+						<longitude>81.42444441441161</longitude>
+						<latitude>21.18277785838228</latitude>
+						<altitude>0</altitude>
+						<heading>5.207552792799025e-009</heading>
+						<tilt>0</tilt>
+						<range>1596.966769980064</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>81.4244444144116,21.18277785838228,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 24</name>
+					<open>1</open>
+					<description>Korba Thermal Power Station ( Bhawnendra Singh Deo Power Plant) CSEB	
+Korba East	
+Korba	
+Chhattisgarh
+440 MW (4x50 {200 MW} + 2x120 {240 MW})</description>
+					<LookAt>
+						<longitude>82.71887871434042</longitude>
+						<latitude>22.38361248172826</latitude>
+						<altitude>0</altitude>
+						<heading>4.459213201585536e-010</heading>
+						<tilt>0</tilt>
+						<range>1431.353884397579</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.71887871434043,22.38361248172826,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 23</name>
+					<open>1</open>
+					<description>Korba Super Thermal Power Plant(NTPC)	
+Korba city	
+Korba	
+Chhattisgarh
+2600 MW (2x300 {600 MW} + 4x500 {2000 MW})</description>
+					<LookAt>
+						<longitude>82.68579999947296</longitude>
+						<latitude>22.38809999924594</latitude>
+						<altitude>0</altitude>
+						<heading>-2.007295767791847e-010</heading>
+						<tilt>0</tilt>
+						<range>1291.692825053019</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.68579999947296,22.38809999924594,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 22</name>
+					<open>1</open>
+					<description>Prakash Industries Ltd	
+Champa	
+Janjgir-Champa	
+Chhattisgarh
+500 MW (2x100 {200 MW} + 2x150 {300})</description>
+					<LookAt>
+						<longitude>82.66772683352222</longitude>
+						<latitude>22.0020248341601</latitude>
+						<altitude>0</altitude>
+						<heading>7.077052221724472e-011</heading>
+						<tilt>0</tilt>
+						<range>1248.803259470081</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.66772683352222,22.00202483416009,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 21</name>
+					<open>1</open>
+					<description>Sipat Thermal Power Station (NTPC)	
+Sipat	
+Bilaspur	
+Chhattisgarh
+2980 MW (3x660 {1980 MW} + 2x500 {1000 MW})</description>
+					<LookAt>
+						<longitude>82.29489899865575</longitude>
+						<latitude>22.13277783359879</latitude>
+						<altitude>0</altitude>
+						<heading>-5.064468781774691e-010</heading>
+						<tilt>0</tilt>
+						<range>1273.337089283317</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.29489899865575,22.13277783359879,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 20</name>
+					<open>1</open>
+					<description>Ultratech Cements Ltd.	
+Hirmi	
+Raipur	
+Chhattisgarh
+100 MW (4x25)</description>
+					<LookAt>
+						<longitude>81.94888099989196</longitude>
+						<latitude>21.54458683362205</latitude>
+						<altitude>0</altitude>
+						<heading>-3.968537103796103e-011</heading>
+						<tilt>0</tilt>
+						<range>1279.66470571725</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>81.94888099989194,21.54458683362205,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 19</name>
+					<open>1</open>
+					<description>Grasim Cement Captive power plant	
+Rawan	
+Raipur	
+Chhattisgarh
+30 MW</description>
+					<LookAt>
+						<longitude>82.02198413716707</longitude>
+						<latitude>21.57404515855028</latitude>
+						<altitude>0</altitude>
+						<heading>-1.264655332998205e-009</heading>
+						<tilt>0</tilt>
+						<range>1284.995807173281</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.02198413716707,21.57404515855028,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 18</name>
+					<open>1</open>
+					<description>BALCO Korba power station	
+Korba city	
+Korba	
+Chhattisgarh
+2x300 = 600 MW {1200 MW}</description>
+					<LookAt>
+						<longitude>82.74001183353522</longitude>
+						<latitude>22.39899699899521</latitude>
+						<altitude>0</altitude>
+						<heading>7.692091983252479e-011</heading>
+						<tilt>0</tilt>
+						<range>1300.790560136582</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.74001183353521,22.39899699899521,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 17</name>
+					<open>1</open>
+					<description>Spectrum Coal &amp; Power Ltd. (Ratija Power Project)	
+Ratija	
+Korba	
+Chhattisgarh
+1x50 = 50 MW {100 MW)</description>
+					<LookAt>
+						<longitude>82.49277802943352</longitude>
+						<latitude>22.33999358752478</latitude>
+						<altitude>0</altitude>
+						<heading>4.013545530662829e-009</heading>
+						<tilt>0</tilt>
+						<range>1368.198479428663</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.49277802943354,22.33999358752478,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 16</name>
+					<open>1</open>
+					<description>Marwa power station	
+Marwa 	
+Janjgir-Champa	
+Chhattisgarh
+1000 MW (2x500)</description>
+					<LookAt>
+						<longitude>82.60218883181953</longitude>
+						<latitude>22.07080083156363</latitude>
+						<altitude>0</altitude>
+						<heading>-5.688131822182816e-010</heading>
+						<tilt>0</tilt>
+						<range>1265.486429861135</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.60218883181953,22.07080083156363,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 15</name>
+					<open>1</open>
+					<description>S.V. Power Pvt. Ltd.	
+Reiki 	
+Korba	
+Chhattisgarh
+120 MW (2x60)</description>
+					<LookAt>
+						<longitude>82.52524800611275</longitude>
+						<latitude>22.2970071911752</latitude>
+						<altitude>0</altitude>
+						<heading>4.42733012875054e-009</heading>
+						<tilt>0</tilt>
+						<range>1342.882230464992</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.52524800611273,22.29700719117521,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 13</name>
+					<open>1</open>
+					<description>Salora power station (Vandana Vidyut Ltd.)	
+Salora, Chhuri, and Dhanras	
+Korba	
+Chhattisgarh
+2x135 = 270 MW {1200 MW}</description>
+					<LookAt>
+						<longitude>82.60623981325256</longitude>
+						<latitude>22.48995192540441</latitude>
+						<altitude>0</altitude>
+						<heading>5.65364228478636e-009</heading>
+						<tilt>0</tilt>
+						<range>1352.579996553884</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.60623981325256,22.48995192540441,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 12</name>
+					<open>1</open>
+					<description>Korba West Power Company Ltd.	 
+Bade Bhandar, Chote Bhandar,Sarvani and Amali Bho	
+Raigarh	
+Chhattisgarh
+600 MW</description>
+					<LookAt>
+						<longitude>83.27468360011889</longitude>
+						<latitude>21.74126649920408</latitude>
+						<altitude>0</altitude>
+						<heading>4.404551393691232e-011</heading>
+						<tilt>0</tilt>
+						<range>1215.00209030568</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>83.27468333333333,21.74126666666667,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 11</name>
+					<open>1</open>
+					<description>Lanco Amarkantak Power Pvt. Ltd.	
+Amarkantak	
+Korba	
+Chhattisgarh
+2x300 = 600 {1920 MW}</description>
+					<LookAt>
+						<longitude>82.71695900098102</longitude>
+						<latitude>22.23897483428703</latitude>
+						<altitude>0</altitude>
+						<heading>3.712900021273473e-010</heading>
+						<tilt>0</tilt>
+						<range>1317.503896808455</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.71695900098104,22.23897483428703,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 08</name>
+					<open>1</open>
+					<description>Baradarha power station ( D.B. Power Ltd.)	
+Baradarha	
+Janjgir - Champa	
+Chhattisgarh
+1200 MW (2x600)</description>
+					<LookAt>
+						<longitude>83.18886283329172</longitude>
+						<latitude>21.91143583366671</latitude>
+						<altitude>0</altitude>
+						<heading>-1.553263635626227e-011</heading>
+						<tilt>0</tilt>
+						<range>1231.504214072982</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>83.18886283329171,21.91143583366671,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 07</name>
+					<open>1</open>
+					<description>Jindal Tamnar Thermal Power Plant
+Tamnar	
+Raigarh	
+Chhattisgarh
+3400 MW (4x250 {1000 MW} + 4x600 {2400 MW})</description>
+					<LookAt>
+						<longitude>83.45600573291978</longitude>
+						<latitude>22.10333900761157</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0007337556665787603</heading>
+						<tilt>0</tilt>
+						<range>2774.716439049828</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>83.45600573291978,22.10333900761157,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 05</name>
+					<open>1</open>
+					<description>GMR Energy Ltd.
+Raikheda
+Raipur
+Chhattisgarh
+1x685 MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>81.85247400002152,21.44991799984271,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 03</name>
+					<open>1</open>
+					<description>Jindal Steel and Power Plant
+Dongamahua
+Raigarh
+Chhattisgarh
+4x135 = 540 MW {840 MW}</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>83.5359189999263,22.12794499995923,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 31</name>
+					<description>Arasmeta Captive Power Company Private Ltd	
+Gopalnagar	
+Janjgir-Champa	
+Chhattisgarh
+1x43 = 43 MW</description>
+					<Camera>
+						<longitude>82.35333333229546</longitude>
+						<latitude>21.96194444439576</latitude>
+						<altitude>1.602764203811157</altitude>
+						<heading>146.4325099506848</heading>
+						<tilt>0.01237507041735846</tilt>
+						<roll>179.9999994000935</roll>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</Camera>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.35333333414928,21.961944441801,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gujarat</name>
+				<Placemark>
+					<name>GU 01</name>
+					<description>Wanakbori Thermal Power Station ( Gujarat State Electricity Corporation)	
+Wanakbori	
+Kheda 	
+Gujarat
+7x210 = 1470 MW {2270 MW}</description>
+					<LookAt>
+						<longitude>73.36079854294958</longitude>
+						<latitude>22.87255077142682</latitude>
+						<altitude>0</altitude>
+						<heading>0.000775706548299909</heading>
+						<tilt>0</tilt>
+						<range>2647.549457421657</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>73.36079854294958,22.87255077142682,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 06</name>
+					<description>Mundra Thermal Power Station ( Adani Power Limited)	
+Mundra	
+Kutch	
+Gujarat
+4620 MW = (4x330 {1320 MW} + 5x660 {3300 MW})</description>
+					<LookAt>
+						<longitude>69.55543435161017</longitude>
+						<latitude>22.82223189703133</latitude>
+						<altitude>0</altitude>
+						<heading>-0.01179098207610062</heading>
+						<tilt>0</tilt>
+						<range>1862.977047125108</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>69.55543435161017,22.82223189703132,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 07</name>
+					<description>Ukai Thermal Power Station (Gujarat State Electricity Corporation)	
+Ukai	
+Tapi	
+Gujarat
+1350 MW = (2x120 {240 MW} + 2x200 {400 MW} + 1x210 + 1x500)</description>
+					<LookAt>
+						<longitude>73.55739999975189</longitude>
+						<latitude>21.20929983338574</latitude>
+						<altitude>0</altitude>
+						<heading>-8.976956560696703e-011</heading>
+						<tilt>0</tilt>
+						<range>1184.850312840491</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>73.55739999975189,21.20929983338574,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 08</name>
+					<description>Surashtra Cements Ltd.	
+Ranavav	
+Porbandar 	
+Gujarat
+2x20 = 40 MW</description>
+					<LookAt>
+						<longitude>69.72334795733563</longitude>
+						<latitude>21.70393284167119</latitude>
+						<altitude>0</altitude>
+						<heading>-0.003473716510345781</heading>
+						<tilt>0</tilt>
+						<range>2265.422182710824</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>69.72334795733563,21.70393284167119,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 09</name>
+					<description>Sikka Thermal Power Station ( Gujarat State Electricity Corporation)	
+Sikka	
+Jamnagar	
+Gujarat
+490 MW = (2x120 {240 MW} + 1x250) {740 MW}</description>
+					<LookAt>
+						<longitude>69.82739158950743</longitude>
+						<latitude>22.41939852530069</latitude>
+						<altitude>0</altitude>
+						<heading>-8.331069577333775e-006</heading>
+						<tilt>0</tilt>
+						<range>3104.647444727919</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>69.82739158950741,22.4193985253007,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 10</name>
+					<description>Gandhinagar Thermal Power Station (Gujarat State Electricity Corporation)	
+Gandhinagar	
+Gandhinagar	
+Gujarat
+870 MW = (2x120 {240 MW} + 3x210 {630 MW})</description>
+					<LookAt>
+						<longitude>72.67396135585098</longitude>
+						<latitude>23.25016519740453</latitude>
+						<altitude>0</altitude>
+						<heading>0.005441173864094839</heading>
+						<tilt>0</tilt>
+						<range>3761.340527109483</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>72.67396135585098,23.25016519740453,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 11</name>
+					<description>Akrimota Thermal Power Station	
+Chher Nani	
+Kutch	
+Gujarat
+2x125 = 250MW</description>
+					<LookAt>
+						<longitude>72.67396135585098</longitude>
+						<latitude>23.25016519740453</latitude>
+						<altitude>0</altitude>
+						<heading>0.005441173864094839</heading>
+						<tilt>0</tilt>
+						<range>3761.340527109483</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>72.67396135585098,23.25016519740453,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 12</name>
+					<description>Kutch Thermal Power Station	
+Panandhro	
+Kutch	
+Gujarat
+290 = (2x70 {140 MW} + 2x75 {150 MW})</description>
+					<LookAt>
+						<longitude>68.783666338156</longitude>
+						<latitude>23.66388303664515</latitude>
+						<altitude>0</altitude>
+						<heading>2.94425072779435e-007</heading>
+						<tilt>0</tilt>
+						<range>1683.808262802163</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>68.78366633815598,23.66388303664515,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 13</name>
+					<description>Sabarmati Thermal Power Station (Torrent Power)	
+Sabarmati	
+Ahmedabad	
+Gujarat
+411 MW = (1x 60 + 2x110 {220 MW} + 1x120 + 1x121)</description>
+					<LookAt>
+						<longitude>72.59408580094635</longitude>
+						<latitude>23.07030654570334</latitude>
+						<altitude>0</altitude>
+						<heading>9.243690133907442e-005</heading>
+						<tilt>0</tilt>
+						<range>1083.029882563423</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>72.59408580094635,23.07030654570333,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 14</name>
+					<description>Surat Thermal Power Station	
+Nani Naroli 	
+Surat	
+Gujarat
+4x125 = 500 MW</description>
+					<LookAt>
+						<longitude>73.10609907314797</longitude>
+						<latitude>21.39615065404471</latitude>
+						<altitude>0</altitude>
+						<heading>1.91952315319857e-007</heading>
+						<tilt>0</tilt>
+						<range>1480.906727934761</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>73.10609907314799,21.39615065404471,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 15</name>
+					<description>Salaya power plant ( Essar Power Gujarat)	
+Vadinar	
+Jamnagar	
+Gujarat
+2x600 = 1200 MW</description>
+					<LookAt>
+						<longitude>69.71949170027206</longitude>
+						<latitude>22.29853059977961</latitude>
+						<altitude>0</altitude>
+						<heading>1.032241070482281e-010</heading>
+						<tilt>0</tilt>
+						<range>1197.369609007049</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>69.71949170027207,22.29853059977961,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 17</name>
+					<description>Gallant Metal Limited	
+Samakhiyali	
+Kutch	
+Gujarat
+33 MW = (1x25 + 1x8)</description>
+					<LookAt>
+						<longitude>70.49008214277718</longitude>
+						<latitude>23.31520020990424</latitude>
+						<altitude>0</altitude>
+						<heading>0.0003649173234181294</heading>
+						<tilt>0</tilt>
+						<range>1260.175953985795</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>70.49008214277718,23.31520020990424,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 18</name>
+					<description>Ultra Tech Cement Ltd.	
+Kovaya	
+Amreli	
+Gujarat
+4x23 = 96 MW</description>
+					<LookAt>
+						<longitude>71.46081655068403</longitude>
+						<latitude>20.91283472938708</latitude>
+						<altitude>0</altitude>
+						<heading>0.001425995129758348</heading>
+						<tilt>0</tilt>
+						<range>2942.224446504085</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>71.46081655068403,20.91283472938708,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 19</name>
+					<description>Gujarat Ambuja Cements Ltd	
+Vadnagar	
+Junagarh	
+Gujarat
+3x30 =90 MW</description>
+					<LookAt>
+						<longitude>70.6913205427139</longitude>
+						<latitude>20.83610957135438</latitude>
+						<altitude>0</altitude>
+						<heading>4.909497152473514e-005</heading>
+						<tilt>0</tilt>
+						<range>1884.171054674814</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>70.6913205427139,20.83610957135438,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Haryana</name>
+				<Placemark>
+					<name>HR05</name>
+					<open>1</open>
+					<description>Panipat Thermal Power Station I &amp; II  (Haryana Power Generation Corporation Limited)
+Aasandh	Panipat	Haryana
+1360MW(4X110MW+2X210MW+2X250MW)</description>
+					<LookAt>
+						<longitude>76.88345601530405</longitude>
+						<latitude>29.38895285891297</latitude>
+						<altitude>0</altitude>
+						<heading>0.004769522420247613</heading>
+						<tilt>22.92619346164993</tilt>
+						<range>9111.225372738318</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>76.87606842965528,29.39785630867557,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="5722676842368442290">
+					<name>HR04</name>
+					<open>1</open>
+					<description>Deenabndhu Choturam Thermal Power Station  (Haryana Power Generation Corporation Limited) Yamunanagar	Yamunanagar	Haryana	300MWX2</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<ExtendedData>
+						<Data name="tracking_href_2">
+							<value>http://www.google.com/maps/gen_204?ct=google_earth:popup&amp;oi=blaces-generic_poi-power_plant._._._.9f8659d2b797bff1_en&amp;cad=lat:30.1082502,lon:77.3258758,quad:020320231322,cc:IN</value>
+						</Data>
+					</ExtendedData>
+					<Point>
+						<coordinates>77.32587580000001,30.1082502,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HR03</name>
+					<open>1</open>
+					<description>Rajiv Gandhi Thermal Power Station (Haryana Power Generation Corporation Limited)
+Khedar	Hissar	Haryana
+1200(2X600MW)</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>75.8611111111111,29.34861111111112,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>HR02</name>
+					<open>1</open>
+					<description>Indira Gnadhi Super Thermal Power Project (Aravalli Power Corporation)
+Jharli	Jhajjar	Haryana
+3X500MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>76.37316083333333,28.485091,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Jharkhand</name>
+				<Placemark>
+					<name>jh06</name>
+					<open>1</open>
+					<description>Damodar Valley Corporation	
+Chandrapura	
+Bokaro	
+Jharkhand	
+250*2 MW</description>
+					<LookAt>
+						<longitude>85.51311489998237</longitude>
+						<latitude>23.64732029995001</latitude>
+						<altitude>0</altitude>
+						<heading>-7.064409516865654e-012</heading>
+						<tilt>0</tilt>
+						<range>1325.795037401345</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>85.51311489998237,23.64732029995001,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>jh07</name>
+					<open>1</open>
+					<description>Tenughat Thermal Power Station	Tenughat	
+Bokaro	
+Jharkhand	
+210*2 MW</description>
+					<LookAt>
+						<longitude>85.75897430013487</longitude>
+						<latitude>23.73212200013408</latitude>
+						<altitude>0</altitude>
+						<heading>5.427298508449343e-011</heading>
+						<tilt>0</tilt>
+						<range>4604.329369808671</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>85.75897430013485,23.73212200013408,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>jh02</name>
+					<open>1</open>
+					<description>Tata Power Company Limited	
+Jojobera, Jamshedpur	
+East Singhbhum	Jharkhand	
+67.5+ 120*6 MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>86.24909983333333,22.7554,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>jh01</name>
+					<description>Corporate Power Ltd	
+Bana	
+Latehar	
+Jharkhand	
+270*2 +135*4 MW</description>
+					<LookAt>
+						<longitude>84.77910248174364</longitude>
+						<latitude>23.73815346725719</latitude>
+						<altitude>0</altitude>
+						<heading>-1.390246822041706e-007</heading>
+						<tilt>0</tilt>
+						<range>1442.595178877521</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>84.77910248174364,23.73815346725719,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>jh03</name>
+					<description>DVC		
+Bokaro	
+Jharkhand	
+210*3 MW</description>
+					<LookAt>
+						<longitude>86.12947104168926</longitude>
+						<latitude>23.74015378994511</latitude>
+						<altitude>0</altitude>
+						<heading>-0.1023898713935048</heading>
+						<tilt>0</tilt>
+						<range>9737.102219445787</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>86.11918764742981,23.74113206676571,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>jh04</name>
+					<description>Maithon Power Ltd.	
+Chirkunda	
+Dhanbad	
+Jharkhand	
+525*2 MW</description>
+					<LookAt>
+						<longitude>86.75963849368849</longitude>
+						<latitude>23.82097482997804</latitude>
+						<altitude>0</altitude>
+						<heading>-1.24354882561059e-005</heading>
+						<tilt>0</tilt>
+						<range>1602.811387785621</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>86.75963849368847,23.82097482997805,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>jh08</name>
+					<description>Patratu Thermal Power Station	
+Patratu	
+Ramgarh	
+Jharkhand	
+40*4 + 90*2 +105*2 +110*2 MW</description>
+					<LookAt>
+						<longitude>85.29358489997543</longitude>
+						<latitude>23.64079260003193</latitude>
+						<altitude>0</altitude>
+						<heading>-9.845407016470315e-012</heading>
+						<tilt>0</tilt>
+						<range>1466.932288956846</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>85.29358489997543,23.64079260003193,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>jh09</name>
+					<description>Koderma Thermal Power Station	Kodarma	
+Kodarma	
+Jharkhand	
+500*2 MW</description>
+					<LookAt>
+						<longitude>85.56108360011869</longitude>
+						<latitude>24.39007829996303</latitude>
+						<altitude>0</altitude>
+						<heading>4.902506986007865e-011</heading>
+						<tilt>0</tilt>
+						<range>1453.897173978717</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>85.56108360011871,24.39007829996303,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Jharkhand</name>
+				<Placemark>
+					<name>#JH04</name>
+					<open>1</open>
+					<description>Mahadev Prasad Super Thermal Power Plant (Adhunik Power &amp; Natural Resources Ltd.)	Padampur	Dhanbad	Jharkhand	4X135MW</description>
+					<LookAt>
+						<longitude>85.97159194282466</longitude>
+						<latitude>22.98373476575371</latitude>
+						<altitude>0</altitude>
+						<heading>0.0004220983696026158</heading>
+						<tilt>0</tilt>
+						<range>35514.29652439278</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>85.97159194282466,22.98373476575371,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>#JH03</name>
+					<open>1</open>
+					<description>Inland Power Ltd.	Gola	Ramgarh	Jharkhand	63MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>85.66388883333335,23.48333283333334,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Karnataka</name>
+				<Placemark>
+					<name>KA02</name>
+					<open>1</open>
+					<description>NTPC Ltd.	Kudgi
+3X800 MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>75.83463190000001,16.4995461,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>KA011</name>
+					<open>1</open>
+					<description>Yermarus power station (Raichur Power Corporation Ltd)	Yermarus 	Raichur 	Karnataka	1X800MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>77.3561203,16.2952614,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>KA05</name>
+					<open>1</open>
+					<description>Udupi Power Corporation Ltd.	Padubidri	North Kannada	Karnataka	2X600MW</description>
+					<LookAt>
+						<longitude>74.79999999284451</longitude>
+						<latitude>13.15972218573723</latitude>
+						<altitude>0</altitude>
+						<heading>-1.629066590488217e-009</heading>
+						<tilt>0</tilt>
+						<range>1262.262695743076</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>74.79999999284451,13.15972218573723,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>KA01</name>
+					<open>1</open>
+					<description>JSW Energy Ltd.	Toranagallu	Bellary	Karnataka	2X130MW+4X300MW</description>
+					<LookAt>
+						<longitude>76.66105559887213</longitude>
+						<latitude>15.18365559071103</latitude>
+						<altitude>0</altitude>
+						<heading>-2.953995820116167e-010</heading>
+						<tilt>0</tilt>
+						<range>1895.863482885406</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>76.66105559887213,15.18365559071103,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Madhya Pradesh</name>
+				<Placemark>
+					<name>MP18</name>
+					<open>1</open>
+					<description>Bina Power Supply Company	
+Sirchopi Jodh	
+Sagar	
+Madhya Pradesh	
+250*2 MW</description>
+					<LookAt>
+						<longitude>78.13356400010709</longitude>
+						<latitude>24.31722170036963</latitude>
+						<altitude>0</altitude>
+						<heading>4.409600524248055e-011</heading>
+						<tilt>0</tilt>
+						<range>1411.153397784652</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>78.13356400010709,24.31722170036963,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP11</name>
+					<open>1</open>
+					<description>Madhya Pradesh Electricity Board(Amarkantak Thermal Power Station)	
+Chachai	
+Anuppur		
+210 MW+ 120* 2 MW</description>
+					<LookAt>
+						<longitude>81.63798810019249</longitude>
+						<latitude>23.16387760018901</latitude>
+						<altitude>0</altitude>
+						<heading>7.570952606822237e-011</heading>
+						<tilt>0</tilt>
+						<range>1580.520530573402</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>81.63798810019247,23.16387760018902,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP10</name>
+					<open>1</open>
+					<description>Satpura Thermal Power Station (M.P. Power Generating Co. Ltd.)	
+Sarni	
+Betul	
+Madhya Pradesh	
+200MW +210*3 MW+ 250*2 MW</description>
+					<LookAt>
+						<longitude>78.16633469994127</longitude>
+						<latitude>22.11865570016842</latitude>
+						<altitude>0</altitude>
+						<heading>-2.211598697755656e-011</heading>
+						<tilt>0</tilt>
+						<range>1551.178179253255</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>78.16633469994127,22.11865570016842,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mp07</name>
+					<open>1</open>
+					<description>Sanjay Gandhi Thermal Power Station
+Umaria, Birsinghpur
+210*4 MW + 500 MW</description>
+					<LookAt>
+						<longitude>81.06162919524876</longitude>
+						<latitude>23.30708781236646</latitude>
+						<altitude>0</altitude>
+						<heading>21.94202681404889</heading>
+						<tilt>0</tilt>
+						<range>3393.468144413985</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>81.0657575202989,23.30705505017183,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP02</name>
+					<open>1</open>
+					<description>Anuppur Thermal Power Project, Hindustan Power Projects (formerly Moser Baer)
+Laharpur,Murra,Guwari,Belia and Jethari
+Anuppur
+Unit Capacity 600*2 MW
+Total Capacity 1200 MW</description>
+					<LookAt>
+						<longitude>81.78586253665333</longitude>
+						<latitude>23.06655908609106</latitude>
+						<altitude>0</altitude>
+						<heading>-1.935195405011986e-005</heading>
+						<tilt>4.801098315376355</tilt>
+						<range>1888.554218105145</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>81.78586253665333,23.06655908609106,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP01</name>
+					<description>NTPC Ltd., Vindhyachal, Singrauli
+Unit&apos;s capacity- 210*6 MW, 500* 7 MW
+Total Capacity- 4760 MW</description>
+					<LookAt>
+						<longitude>82.71532050807095</longitude>
+						<latitude>24.12125660242255</latitude>
+						<altitude>0</altitude>
+						<heading>-3.544064923972567</heading>
+						<tilt>25.36743602041578</tilt>
+						<range>20059.39275375759</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.67106784587337,24.09850589092077,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP03</name>
+					<description>Jaiprakash Power Ventures Ltd.
+Nigari, Singrauli
+Unit Capacity- 660*2 MW
+Total Capacity 1320 MW</description>
+					<LookAt>
+						<longitude>81.89797740846038</longitude>
+						<latitude>24.15045473832309</latitude>
+						<altitude>0</altitude>
+						<heading>-0.007917789089910315</heading>
+						<tilt>0</tilt>
+						<range>3735.180631941891</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>81.90437526040023,24.15142840597047,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP04</name>
+					<description>B.L.A. Power Pvt. Ltd.
+Niwaari, Khursipur
+Narsinghpur
+Unit Capacity 45 MW
+Total Capacity 135 MW</description>
+					<LookAt>
+						<longitude>78.78000031790363</longitude>
+						<latitude>22.92000060099203</latitude>
+						<altitude>0</altitude>
+						<heading>9.63741941390803e-008</heading>
+						<tilt>0</tilt>
+						<range>1354.649650156817</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>78.78000031790364,22.92000060099203,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP05</name>
+					<description>Hindalco Ind. Ltd. (Unit Mahaan Aluminium Project)
+Bargawaan
+Singrauli
+Unit Capacity 300 MW
+Total Capacity- 900 MW   (6 x 150MW  , though one 150  unit is for back-up only)</description>
+					<LookAt>
+						<longitude>82.4815158744296</longitude>
+						<latitude>24.21848636147774</latitude>
+						<altitude>0</altitude>
+						<heading>-0.01082129728956274</heading>
+						<tilt>0</tilt>
+						<range>16645.26442465601</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>82.45008671824805,24.21537887652751,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP06</name>
+					<description>Shree Singaji Thermal Power Project
+Dongalia, Khandwa
+600*2 MW</description>
+					<LookAt>
+						<longitude>76.53438435831259</longitude>
+						<latitude>22.10224138584956</latitude>
+						<altitude>0</altitude>
+						<heading>4.612316125245329e-006</heading>
+						<tilt>0</tilt>
+						<range>1470.483565745032</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>76.53438435831259,22.10224138584956,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Maharashtra</name>
+				<Placemark>
+					<name>mh19</name>
+					<open>1</open>
+					<description>RattanIndia Power Ltd (formerly Indiabulls Power Ltd)	
+Nandgaonpethj	Amravati	
+Maharashtra	
+270*10 MW</description>
+					<LookAt>
+						<longitude>77.901241799993</longitude>
+						<latitude>21.08031559992212</latitude>
+						<altitude>0</altitude>
+						<heading>-2.516613891708007e-012</heading>
+						<tilt>0</tilt>
+						<range>1363.90921065242</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>77.901241799993,21.08031559992212,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh18</name>
+					<open>1</open>
+					<description>Nasik RattanIndia Thermal Power Project	
+Sinnar	
+Nasik	
+Maharashtra	
+270*5 MW</description>
+					<LookAt>
+						<longitude>74.0817492997455</longitude>
+						<latitude>19.86665940018591</latitude>
+						<altitude>0</altitude>
+						<heading>-8.648484775968558e-011</heading>
+						<tilt>0</tilt>
+						<range>1623.578534354177</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>74.08170117336779,19.86685553559692,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh11</name>
+					<open>1</open>
+					<description>Mahagenco( Parli Thermal Power Station)		
+Beed	
+Maharashtra	
+300 mw</description>
+					<LookAt>
+						<longitude>76.52413110073528</longitude>
+						<latitude>18.86801634145508</latitude>
+						<altitude>0</altitude>
+						<heading>-1.018815949171823e-009</heading>
+						<tilt>0</tilt>
+						<range>1630.97811070177</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>76.52413110073528,18.86801634145508,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh09</name>
+					<open>1</open>
+					<description>Wardha Warora Power Plant	
+Warora Growth Centre village	
+Chandrapur	
+Maharashtra	
+135*4 MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>78.97891583333333,20.27244283333333,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh08</name>
+					<open>1</open>
+					<description>Dhariwal power station	
+Tadali	
+Chandrapur	
+Maharashtra	
+300*2 MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>79.203433,20.01058783333333,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh07</name>
+					<open>1</open>
+					<description>Koradi Thermal Power Station  (MSPGCL)	 
+Koradi  	
+Nagpur	
+Maharashtra	
+200 mw +210*2 mw + 660*3 MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>79.09194983333333,21.23598183333333,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh06</name>
+					<open>1</open>
+					<description>Tiroda Thermal Power Project (Adani Power Maharashtra Pvt.Ltd)	Tiroda	
+Gondia	
+Maharashtra	
+660*5 MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>79.96730983333333,21.41250183333333,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh05</name>
+					<open>1</open>
+					<description>EMCO Energy Warora Power Project	
+Warora Growth Center village	
+Chandrapur	
+Maharashtra	
+300*2 MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>78.975351,20.27965583333333,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh04</name>
+					<open>1</open>
+					<description>Butibori Power Project (Vidarbha Industries Power Ltd.)	
+Butibori	
+Nagpur	
+Maharashtra	
+300*2 MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>78.93328083333334,20.928591,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh02</name>
+					<open>1</open>
+					<description>Mauda power station	
+Mouda	 
+Solapur	
+Maharashtra	
+500*2 MW, 660*2 MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>79.39654083333333,21.18074,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh01</name>
+					<open>1</open>
+					<description>Trombay Power Station (The Tata Power Company Ltd)	
+Mahul	
+Mumbai	
+Maharashtra	
+500*2 MW + 250 Mw</description>
+					<LookAt>
+						<longitude>72.90110049859142</longitude>
+						<latitude>19.00323560194272</latitude>
+						<altitude>0</altitude>
+						<heading>-1.213866645567255e-010</heading>
+						<tilt>0</tilt>
+						<range>1737.488515456414</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>72.897682885641,19.00332399041858,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh10</name>
+					<description>Mahagenco		
+Chandrapur	
+Maharashtra	
+500*5+ 210*4  MW</description>
+					<LookAt>
+						<longitude>79.29303120013682</longitude>
+						<latitude>20.00227709946362</latitude>
+						<altitude>0</altitude>
+						<heading>4.679907915238937e-011</heading>
+						<tilt>0</tilt>
+						<range>1303.408460080463</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>79.29303120013681,20.00227709946362,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh12</name>
+					<description>JSW Energy (Ratnagiri) Limited		
+Ratnagiri	
+Maharashtra	
+300*4 MW</description>
+					<LookAt>
+						<longitude>73.21235477241912</longitude>
+						<latitude>17.2964372895034</latitude>
+						<altitude>0</altitude>
+						<heading>4.929803937533792e-008</heading>
+						<tilt>0</tilt>
+						<range>1068.537467230643</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>73.21235477241912,17.2964372895034,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh13</name>
+					<description>Paras Thermal Power Station	
+Vidyutnagar	
+Akola	
+Maharashtra	
+250*2 MW</description>
+					<LookAt>
+						<longitude>76.79608717193288</longitude>
+						<latitude>20.71752205350815</latitude>
+						<altitude>0</altitude>
+						<heading>-1.14741483308362e-005</heading>
+						<tilt>0</tilt>
+						<range>2978.859758745923</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>76.79608717193288,20.71752205350815,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh14</name>
+					<description>Dahanu Thermal Power Station	
+Dahanu	
+Thane	
+Maharashtra	
+250*2 MW</description>
+					<LookAt>
+						<longitude>72.74961450345461</longitude>
+						<latitude>19.95704260218044</latitude>
+						<altitude>0</altitude>
+						<heading>-9.284277656793116e-011</heading>
+						<tilt>0</tilt>
+						<range>4481.053542295266</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>72.74961450345461,19.95704260218044,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh15</name>
+					<description>Nashik Thermal Power Station		
+Nashik 	
+Maharashtra	
+210*3 mw +140 *2 MW</description>
+					<LookAt>
+						<longitude>73.89211179995473</longitude>
+						<latitude>19.98095160027068</latitude>
+						<altitude>0</altitude>
+						<heading>-1.545431519723123e-011</heading>
+						<tilt>0</tilt>
+						<range>1683.659505608743</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>73.89211179995475,19.98095160027067,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh16</name>
+					<description>Maharashtra State Power Generation Co. Ltd.	
+Pimpri-Sekagaon, Bhusawal Taluk	Jalgaon	
+Maharashtra	
+500*2 MW +210*2 MW</description>
+					<LookAt>
+						<longitude>75.84087785377048</longitude>
+						<latitude>21.0479911223525</latitude>
+						<altitude>0</altitude>
+						<heading>-6.136012455944353e-005</heading>
+						<tilt>0</tilt>
+						<range>1319.79610162476</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>75.84216140540661,21.04933570387868,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Orissa</name>
+				<Placemark>
+					<name>OR 04</name>
+					<description>GMR Kamalanga Energy Pvt. Ltd.	
+Kamalanga	
+Dhenkanal	
+Orrisa
+3x350 = 1050 MW</description>
+					<LookAt>
+						<longitude>85.27169271693457</longitude>
+						<latitude>20.86888847601281</latitude>
+						<altitude>0</altitude>
+						<heading>0.006607461923927568</heading>
+						<tilt>0</tilt>
+						<range>1823.156327288265</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>85.27169271693457,20.86888847601281,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OR 07</name>
+					<description>Orissa Power Generation Corporation Ltd.	
+Banaharpalli	
+Jharsuguda	
+Orrisa
+2x660 = 1320 MW</description>
+					<LookAt>
+						<longitude>83.85999999944596</longitude>
+						<latitude>21.68999999942282</latitude>
+						<altitude>0</altitude>
+						<heading>-2.047601346992693e-010</heading>
+						<tilt>0</tilt>
+						<range>1206.833961503842</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>83.85999999944595,21.68999999942282,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OR 08</name>
+					<description>Ind-Barath Energy (Utkal) Ltd.	
+Shajbahal	
+Jharsuguda	
+Orrisa
+1x350 = 350 MW {700}</description>
+					<LookAt>
+						<longitude>83.95438492786228</longitude>
+						<latitude>20.65272034512879</latitude>
+						<altitude>0</altitude>
+						<heading>0.008602322857746246</heading>
+						<tilt>0</tilt>
+						<range>11864.7156603392</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>83.95438492786228,20.6527203451288,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OR 10</name>
+					<description>Jindal India Thermal Ltd.	
+Derang	
+Angul	
+Orrisa
+2x600 = 1200 MW</description>
+					<LookAt>
+						<longitude>84.9825582725491</longitude>
+						<latitude>21.12655133356993</latitude>
+						<altitude>0</altitude>
+						<heading>0.0009209137302318786</heading>
+						<tilt>0</tilt>
+						<range>5353.528953178881</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>84.98255827254911,21.12655133356992,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OR 11</name>
+					<description>Utkal Power Ltd.
+Choudwar	
+Cuttack	
+Orrisa
+258 MW = (2x54 {108 MW} + 1x30 + 2x60 {120 MW})</description>
+					<LookAt>
+						<longitude>85.9107229001178</longitude>
+						<latitude>20.53529590028066</latitude>
+						<altitude>0</altitude>
+						<heading>4.131679680488422e-011</heading>
+						<tilt>0</tilt>
+						<range>1027.284739356676</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>85.91072290011779,20.53529590028065,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OR 12</name>
+					<description>Birla Tyres	
+Channpur	
+Balasore	
+Orrisa
+1x7.5 = 7.5 MW</description>
+					<LookAt>
+						<longitude>86.88305555532968</longitude>
+						<latitude>21.48750000028895</latitude>
+						<altitude>0</altitude>
+						<heading>-8.272463698752532e-011</heading>
+						<tilt>0</tilt>
+						<range>1017.749642361915</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>86.88305555532968,21.48750000028894,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OR 13</name>
+					<description>Sterlite Energy Ltd.	
+Brundamal	
+Jharsuguda	
+Orrisa
+4x600 = 2400 MW</description>
+					<LookAt>
+						<longitude>84.03972220007371</longitude>
+						<latitude>21.81361109951885</latitude>
+						<altitude>0</altitude>
+						<heading>2.739729802612673e-011</heading>
+						<tilt>0</tilt>
+						<range>1309.308717222711</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>84.0397222000737,21.81361109951885,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Punjab</name>
+				<Placemark>
+					<name>PB06</name>
+					<open>1</open>
+					<description>Guru Gobind Singh Super Thermal Power Plant	Ropar	Ghanauli	Punjab	6X210MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>76.5847,31.0417,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PB02</name>
+					<open>1</open>
+					<description>Talwandi Sabo Power Ltd.	Banawala	Mansa	Punjab	3X660MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>75.2389294,29.9245796,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PB01</name>
+					<open>1</open>
+					<description>Nabha Power Ltd.	Nalash	Patiala	Punjab	2X700MW</description>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>76.5775931,30.5589628,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PB04</name>
+					<description>Guru Nanak Dev Thermal Plant		Bathinda	Punjab	110MWX4</description>
+					<LookAt>
+						<longitude>74.92390851719773</longitude>
+						<latitude>30.23386961437399</latitude>
+						<altitude>0</altitude>
+						<heading>5.847483813805766e-008</heading>
+						<tilt>0</tilt>
+						<range>1960.660229689629</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>74.92390851719775,30.23386961437399,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>PB05</name>
+					<description>Guru Hargobind Thermal Plant	Lehra Mohabbat	Bathinda	Punjab	210MWX2+250MWX2</description>
+					<LookAt>
+						<longitude>75.16339595205852</longitude>
+						<latitude>30.26759120087817</latitude>
+						<altitude>0</altitude>
+						<heading>-4.496617820715578e-007</heading>
+						<tilt>0</tilt>
+						<range>3456.858424416837</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>75.16339595205852,30.26759120087817,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Rajasthan</name>
+				<Placemark>
+					<name>RA 02</name>
+					<open>1</open>
+					<description>Rajasthan Rajya Vidyut Utpadan Nigam Ltd.	
+Chhabra	
+Baran	
+Rajasthan
+4x250 = 1000 MW {2320 MW}</description>
+					<LookAt>
+						<longitude>77.03672307368244</longitude>
+						<latitude>24.6374329304469</latitude>
+						<altitude>0</altitude>
+						<heading>0.002900415275386723</heading>
+						<tilt>0</tilt>
+						<range>5370.696596565985</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>77.03672307368245,24.6374329304469,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>RA 01</name>
+					<open>1</open>
+					<description>Rajasthan Rajya Vidyut Utpadan Nigam Ltd.	
+Thukrana	
+Sriganaganagar	
+Rajasthan
+6x250 = 1500 MW {2850 MW}</description>
+					<LookAt>
+						<longitude>74.02099122881945</longitude>
+						<latitude>29.18910101707797</latitude>
+						<altitude>0</altitude>
+						<heading>0.00671847192265025</heading>
+						<tilt>0</tilt>
+						<range>3118.650111750327</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>74.02099122881945,29.18910101707797,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>RA 03</name>
+					<description>Adani Power Rajasthan Ltd.	 
+Kawai	
+Baran	
+Rajasthan
+2x660 = 1320 MW</description>
+					<LookAt>
+						<longitude>76.74555460401668</longitude>
+						<latitude>24.78645591344405</latitude>
+						<altitude>0</altitude>
+						<heading>-0.002744188547722865</heading>
+						<tilt>0</tilt>
+						<range>5677.975241921202</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>76.74555460401669,24.78645591344405,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>RA 04</name>
+					<description>Rajasthan Rajya Vidyut Utpadan Nigam Ltd.	
+Kalisindh	
+Jhalawar	
+Rajasthan
+2x600 = 1200 MW</description>
+					<LookAt>
+						<longitude>76.11316894125403</longitude>
+						<latitude>24.53462252730012</latitude>
+						<altitude>0</altitude>
+						<heading>0.00870659034921137</heading>
+						<tilt>0</tilt>
+						<range>5576.689444475992</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>76.11316894125403,24.53462252730012,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>RA 05</name>
+					<description>Banswara Syntex		
+Banswara	
+Rajasthan
+1x18 = 18 MW</description>
+					<LookAt>
+						<longitude>74.43275971155721</longitude>
+						<latitude>23.5330955717774</latitude>
+						<altitude>0</altitude>
+						<heading>0.0007697229164445069</heading>
+						<tilt>0</tilt>
+						<range>2250.710362274209</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>74.43141448034747,23.53149642153425,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>RA 06</name>
+					<description>Rajasthan Rajya Vidyut Utpadan Nigam Ltd.( Kota Super Thermal Power Station)	
+Kota	
+Kota	
+Rajasthan
+1240 MW (2x110 {220 MW} + 3x210 {630 MW} + 2x195 {390 MW})</description>
+					<LookAt>
+						<longitude>75.81790426473376</longitude>
+						<latitude>25.17568913711646</latitude>
+						<altitude>0</altitude>
+						<heading>0.0004739550394690012</heading>
+						<tilt>0</tilt>
+						<range>2021.521650454184</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>75.81784200814764,25.175116357281,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>RA 07</name>
+					<description>VS Lignite Power Plant	
+Gurha	
+Bikaner	
+Rajasthan
+1x135 =135 mw</description>
+					<LookAt>
+						<longitude>72.85804938424005</longitude>
+						<latitude>27.86050596402789</latitude>
+						<altitude>0</altitude>
+						<heading>0.0007830309945024257</heading>
+						<tilt>0</tilt>
+						<range>3991.615213660465</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>72.85804938424005,27.86050596402789,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>RA 08</name>
+					<description>Giral Lignite Power Plant	
+Thumbli	
+Barmer	
+Rajasthan
+2x125 = 250 MW</description>
+					<LookAt>
+						<longitude>71.25339036525165</longitude>
+						<latitude>26.04590057364821</latitude>
+						<altitude>0</altitude>
+						<heading>-0.000276376946725033</heading>
+						<tilt>0</tilt>
+						<range>2832.294713849527</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>71.25339036525165,26.04590057364821,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>RA 09</name>
+					<description>Barsingsar Thermal Power Station	
+Barsingsar	
+Bikaner	
+Rajasthan
+2x125 = 250 MW</description>
+					<LookAt>
+						<longitude>73.20807913823634</longitude>
+						<latitude>27.81888596605074</latitude>
+						<altitude>0</altitude>
+						<heading>0.0004390373320837404</heading>
+						<tilt>0</tilt>
+						<range>597.2195132837352</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>73.20807913823634,27.81888596605074,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>RA 10</name>
+					<description>Raj West Lignite Power Plant		
+Barmer	
+Rajasthan
+8x135 = 1080 MW</description>
+					<LookAt>
+						<longitude>71.32890935052224</longitude>
+						<latitude>25.89597579475956</latitude>
+						<altitude>0</altitude>
+						<heading>0.002106824685258155</heading>
+						<tilt>0</tilt>
+						<range>2932.341722427146</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>71.32890935052224,25.89597579475957,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>RA 11</name>
+					<description>Neyveli Lignite Corporation Ltd	
+Barsingsar		
+Rajasthan
+500 MW = (2x125 {250 MW} + 1x250)</description>
+					<LookAt>
+						<longitude>73.19879196793784</longitude>
+						<latitude>27.8463891797963</latitude>
+						<altitude>0</altitude>
+						<heading>0.002178170168403238</heading>
+						<tilt>0</tilt>
+						<range>3070.866741172173</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>73.19879196793785,27.84638917979629,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Tamil Nadu</name>
+				<Placemark>
+					<name>TN 11</name>
+					<description>North Chennai Power Co. Ltd.	
+Kattupalli&amp; kalanji	
+Thiruvallur	
+Tamil Nadu
+1380 MW = (2x600 + 3X210)</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T10:35:42.164362928Z</begin>
+							<end>2016-07-26T10:35:42.364372621Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>80.3279062877202</longitude>
+						<latitude>13.25305825624175</latitude>
+						<altitude>0</altitude>
+						<heading>2.344966053201293e-005</heading>
+						<tilt>0</tilt>
+						<range>1082.813030533301</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>80.3279062877202,13.25305825624175,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 12</name>
+					<description>NTPC Tamil Nadu Energy Company Ltd.	
+Vellivoyal Chavadi	
+Tiruvallur 	
+Tamil Nadu	
+3x500 = 1500 MW</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T10:37:54.117475857Z</begin>
+							<end>2016-07-26T10:37:54.317489541Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>80.30584710419541</longitude>
+						<latitude>13.23390088851328</latitude>
+						<altitude>0</altitude>
+						<heading>1.227850391550578e-008</heading>
+						<tilt>0</tilt>
+						<range>1168.129875652516</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>80.30584710419541,13.23390088851328,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 13</name>
+					<description>Coastal Energen Pvt Ltd.	
+Melamaruthur	
+Thoothukkudi	
+Tamil Nadu
+600 MW {1200 MW}</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T10:39:32.045182688Z</begin>
+							<end>2016-07-26T10:39:32.245192381Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>78.14517887046287</longitude>
+						<latitude>8.913146380678404</latitude>
+						<altitude>0</altitude>
+						<heading>-8.215133201527443e-006</heading>
+						<tilt>0</tilt>
+						<range>2568.496562857214</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>78.14517887046287,8.913146380678404,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 14</name>
+					<description>Tamil Nadu Electricity Board.		
+Mettur	
+Tamil Nadu
+1440 MW = (1x840 + 1x600)</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T10:42:36.202452117Z</begin>
+							<end>2016-07-26T10:42:36.40245953Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>77.81361198485836</longitude>
+						<latitude>11.77193679907601</latitude>
+						<altitude>0</altitude>
+						<heading>2.217989227249387e-008</heading>
+						<tilt>0</tilt>
+						<range>1695.777172747539</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>77.81361198485837,11.77193679907601,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 15</name>
+					<description>Madras Aluminium Company Ltd.		
+Salem	
+Tamil Nadu
+3x25 = 75 MW</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T10:48:02.085286894Z</begin>
+							<end>2016-07-26T10:48:02.285296587Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>77.82805555544653</longitude>
+						<latitude>11.81083333344703</latitude>
+						<altitude>0</altitude>
+						<heading>-2.23107959517962e-011</heading>
+						<tilt>0</tilt>
+						<range>1260.634561892578</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>77.82805555544653,11.81083333344703,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 16</name>
+					<description>Tamil Nadu Electricity Board.		
+Thoothukkudi	
+Tamil Nadu
+5x210 = 1050 MW</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T10:53:11.323288731Z</begin>
+							<end>2016-07-26T10:53:11.523296714Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>78.17666670000293</longitude>
+						<latitude>8.76416670004342</latitude>
+						<altitude>0</altitude>
+						<heading>4.458740094076667e-013</heading>
+						<tilt>0</tilt>
+						<range>1176.567147018559</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>78.17666670000293,8.764166700043422,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 17</name>
+					<description>Tamil Nadu Electricity Board.		
+Cuddalore	
+Tamil Nadu
+2x210 = 420 MW</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T11:01:50.637121136Z</begin>
+							<end>2016-07-26T11:01:50.837128548Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>79.74999999988025</longitude>
+						<latitude>11.74999999966904</latitude>
+						<altitude>0</altitude>
+						<heading>-2.43873005894567e-011</heading>
+						<tilt>0</tilt>
+						<range>1009.965740084912</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>79.74999999988026,11.74999999966904,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 19</name>
+					<description>Neyveli Thermal Power Station II	
+Neyveli	
+Cuddalore	
+Tamil Nadu
+1970 MW = (7x210 {1470 MW} + 2x250 {500 MW})</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T11:14:17.81852744Z</begin>
+							<end>2016-07-26T11:14:18.018537704Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>79.4419443999372</longitude>
+						<latitude>11.55777780008251</latitude>
+						<altitude>0</altitude>
+						<heading>-1.256160071444016e-011</heading>
+						<tilt>0</tilt>
+						<range>1249.497833871989</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>79.4419443999372,11.55777780008251,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 20</name>
+					<description>Neyveli Thermal Power Station I	
+Neyveli	
+Cuddalore	
+Tamil Nadu
+1020 MW = (6x50 {300 MW} + 3x100 {300 MW} + 2x210 {420 MW})</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T11:16:53.90226869Z</begin>
+							<end>2016-07-26T11:16:54.102279524Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>79.47123703740523</longitude>
+						<latitude>11.59259729467136</latitude>
+						<altitude>0</altitude>
+						<heading>-4.69742136129388e-008</heading>
+						<tilt>0</tilt>
+						<range>1354.650735651763</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>79.47123703740523,11.59259729467136,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 22</name>
+					<description>&quot;Ennore Thermal Power Station	
+Ennore		
+Chennai			
+Tamil Nadu
+450 = (2x60 + 3x110)</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T11:20:26.197650628Z</begin>
+							<end>2016-07-26T11:20:26.397659181Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>80.31111109985237</longitude>
+						<latitude>13.20194440003519</latitude>
+						<altitude>0</altitude>
+						<heading>-3.37063258061448e-011</heading>
+						<tilt>0</tilt>
+						<range>1190.194222077926</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>80.31111109985237,13.20194440003519,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 23</name>
+					<description>Neyveli Zero Lignite Power Station	
+Neyveli		
+Cuddalore	
+Tamil Nadu
+1x250 = 250 MW</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T11:22:12.831716282Z</begin>
+							<end>2016-07-26T11:22:13.031724265Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>79.41584613001299</longitude>
+						<latitude>11.54252385449524</latitude>
+						<altitude>0</altitude>
+						<heading>-1.903614722379613e-007</heading>
+						<tilt>0</tilt>
+						<range>1479.63824140001</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>79.41584613001299,11.54252385449524,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 24</name>
+					<description>Tuticorin Thermal Power Station		
+Thoothukudi	
+Tamil Nadu
+1050 MW</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T11:23:03.625913671Z</begin>
+							<end>2016-07-26T11:23:03.825920513Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>78.17666670001374</longitude>
+						<latitude>8.764166699932646</latitude>
+						<altitude>0</altitude>
+						<heading>2.107515045804763e-012</heading>
+						<tilt>0</tilt>
+						<range>1216.231546564815</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>78.17666670001373,8.764166699932646,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 25</name>
+					<description>Madras Cements Ltd.	
+Thammanaiakkan Patti	
+Virudhunagar	
+Tamil Nadu
+1x25 = 25 MW</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T11:24:41.562096233Z</begin>
+							<end>2016-07-26T11:24:41.762103646Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>77.92748632693817</longitude>
+						<latitude>9.462364004511542</latitude>
+						<altitude>0</altitude>
+						<heading>0.000263713806443639</heading>
+						<tilt>0</tilt>
+						<range>1106.008219972352</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>77.92748632693817,9.462364004511542,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 26</name>
+					<description>Tulsyan NEC Ltd.	
+Gummidipoondi 	
+Thirovallur	
+Tamil Nadu
+2x35 = 70 MW</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T11:26:40.082064235Z</begin>
+							<end>2016-07-26T11:26:40.282071647Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>80.05693783107536</longitude>
+						<latitude>13.4165843240027</latitude>
+						<altitude>0</altitude>
+						<heading>0.000256229693895605</heading>
+						<tilt>0</tilt>
+						<range>1206.407110310524</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>80.05693783107536,13.4165843240027,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 27</name>
+					<description>Tamil Nadu Petroproducts Ltd.	
+Manali	
+Chennai	
+Tamil Nadu
+1x43 = 43 MW</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T11:30:57.315017695Z</begin>
+							<end>2016-07-26T11:30:57.515025107Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>80.27927834397399</longitude>
+						<latitude>13.17916361473887</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0003861886537832487</heading>
+						<tilt>0</tilt>
+						<range>669.032764707452</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>80.279278343974,13.17916361473887,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>West Bengal</name>
+				<Placemark>
+					<name>WB 01</name>
+					<description>DVC	
+Raghunathpur	
+Purulia
+1x600 = 600 MW {2400 MW}</description>
+					<LookAt>
+						<longitude>86.66636964016068</longitude>
+						<latitude>23.62243597505984</latitude>
+						<altitude>0</altitude>
+						<heading>0.01034273530476075</heading>
+						<tilt>0</tilt>
+						<range>3421.252783284935</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>86.66636964016068,23.62243597505984,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>WB 02</name>
+					<open>1</open>
+					<description>West Bengal Power Development Corporation Ltd	Sagardighi	
+Murshidabad	
+West Bengal
+2x300 = 600 MW {1600 MW}</description>
+					<LookAt>
+						<longitude>88.10308030001905</longitude>
+						<latitude>24.36496125942123</latitude>
+						<altitude>0</altitude>
+						<heading>0.001632252743230413</heading>
+						<tilt>0</tilt>
+						<range>4281.81481676323</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>88.10308030001903,24.36496125942122,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>WB 03</name>
+					<description>CESC Ltd.	
+Banehsar Chak	
+Haldia	
+West Bengal
+2x300 = 600 MW</description>
+					<LookAt>
+						<longitude>88.10974779000316</longitude>
+						<latitude>22.06053231205882</latitude>
+						<altitude>0</altitude>
+						<heading>5.666554462140564e-008</heading>
+						<tilt>0</tilt>
+						<range>1436.637337761467</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>88.10974779000316,22.06053231205882,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>WB 05</name>
+					<description>West Bengal Power Development Corporation Ltd	
+Bakreshwar	
+Birbhum	
+West Bengal
+1050 MW</description>
+					<LookAt>
+						<longitude>87.45063173985352</longitude>
+						<latitude>23.82735751581189</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0003662087327631111</heading>
+						<tilt>0</tilt>
+						<range>3347.928116807721</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>87.45063173985353,23.82735751581189,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>WB 06</name>
+					<description>Durgapur Projects Ltd.	
+Burdwan	
+Durgapur	
+West Bengal
+250 MW</description>
+					<LookAt>
+						<longitude>87.30230930000768</longitude>
+						<latitude>23.52114730036999</latitude>
+						<altitude>0</altitude>
+						<heading>3.07003040628266e-012</heading>
+						<tilt>0</tilt>
+						<range>1075.359949183563</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>87.30230930000768,23.52114730036999,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>WB 07</name>
+					<description>West Bengal Power Development Corporation Ltd	
+Santaldih	
+Purulia	
+West Bengal
+980 MW = (4x120 {480 MW} +2x250 {500 MW} +1x300 )</description>
+					<LookAt>
+						<longitude>87.3016137500862</longitude>
+						<latitude>23.51917419416862</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0002775786660892288</heading>
+						<tilt>0</tilt>
+						<range>1075.009757231037</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>87.3016137500862,23.51917419416862,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>WB 08</name>
+					<description>NTPC Ltd.	
+Farakka	
+Murshidabad	
+West Bengal
+500 MW</description>
+					<LookAt>
+						<longitude>87.89399999993448</longitude>
+						<latitude>24.77200000029442</latitude>
+						<altitude>0</altitude>
+						<heading>-2.747005321446521e-011</heading>
+						<tilt>0</tilt>
+						<range>1025.027027279361</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>87.89399999993448,24.77200000029442,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>WB 09</name>
+					<description>Mejia Power Station (DVC)	
+Durlavpur	
+Bankura	
+West Bengal
+2340 MW = (4x210 {840 MW} + 2x250 {500 MW} + 2x500 {1000 MW})</description>
+					<LookAt>
+						<longitude>87.13130707181145</longitude>
+						<latitude>23.46425666412056</latitude>
+						<altitude>0</altitude>
+						<heading>-2.589266040014041e-006</heading>
+						<tilt>0</tilt>
+						<range>2239.490084178716</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>87.13130707181145,23.46425666412055,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>WB 10</name>
+					<description>Budge Budge Thermal Power Station		
+24-pargana (South)	
+West Bengal
+750 MW</description>
+					<LookAt>
+						<longitude>87.13130707181145</longitude>
+						<latitude>23.46425666412056</latitude>
+						<altitude>0</altitude>
+						<heading>-2.589266040014041e-006</heading>
+						<tilt>0</tilt>
+						<range>2239.490084178716</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>87.13130707181145,23.46425666412055,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>WB 11</name>
+					<description>Kolaghat Thermal Power Station	
+Mecheda	
+East Midnapore	
+West Bengal
+6x210 = 1260 MW</description>
+					<LookAt>
+						<longitude>87.13130707181145</longitude>
+						<latitude>23.46425666412056</latitude>
+						<altitude>0</altitude>
+						<heading>-2.589266040014041e-006</heading>
+						<tilt>0</tilt>
+						<range>2239.490084178716</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ylw-pushpin40</styleUrl>
+					<Point>
+						<coordinates>87.13130707181145,23.46425666412055,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Permitted</name>
+			<Folder>
+				<name>Andhra Pradesh</name>
+				<visibility>0</visibility>
+				<Placemark>
+					<name>AP09</name>
+					<visibility>0</visibility>
+					<open>1</open>
+					<description>Dr. Narla Tata Rao Thermal power station
+Ibrahimpatnam	Krishna 	Andhra Pradesh
+2560MW(1X800MW)</description>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>80.54183183333333,16.597681,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AP05</name>
+					<visibility>0</visibility>
+					<open>1</open>
+					<description>Bander power station (Thermal Powertech (India) Ltd.)
+Pynampuram	Nellore	Andhra Pradesh
+660MW</description>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>80.14308583333335,14.351195,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Chhattisgarh</name>
+				<visibility>0</visibility>
+				<Placemark>
+					<name>CH 17</name>
+					<visibility>0</visibility>
+					<open>1</open>
+					<description>Spectrum Coal &amp; Power Ltd. (Ratija Power Project)	
+Ratija	
+Korba	
+Chhattisgarh
+1x50 = 50 MW {100 MW)</description>
+					<LookAt>
+						<longitude>82.49277802943352</longitude>
+						<latitude>22.33999358752478</latitude>
+						<altitude>0</altitude>
+						<heading>4.013545530662829e-009</heading>
+						<tilt>0</tilt>
+						<range>1368.198479428663</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>82.49277802943354,22.33999358752478,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 13</name>
+					<visibility>0</visibility>
+					<open>1</open>
+					<description>Salora power station (Vandana Vidyut Ltd.)	
+Salora, Chhuri, and Dhanras	
+Korba	
+Chhattisgarh
+1x270 = 270 MW {1200 MW}</description>
+					<LookAt>
+						<longitude>82.60623981325256</longitude>
+						<latitude>22.48995192540441</latitude>
+						<altitude>0</altitude>
+						<heading>5.65364228478636e-009</heading>
+						<tilt>0</tilt>
+						<range>1352.579996553884</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>82.60623981325256,22.48995192540441,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 03</name>
+					<visibility>0</visibility>
+					<open>1</open>
+					<description>Jindal Steel and Power Plant
+Dongamahua
+Raigarh
+Chhattisgarh
+2x150 = 300 MW {840 MW}</description>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>83.53612605149986,22.12859232616653,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 02</name>
+					<visibility>0</visibility>
+					<description>JSW Raigarh power station (Kukurda power station)
+Kukurda
+Raigarh
+Chhattisgarh
+1320 MW (2x660)</description>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>83.54000000000001,21.8475,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gujarat</name>
+				<Placemark>
+					<name>GU 02</name>
+					<visibility>0</visibility>
+					<description>Kaj/Nanavada power station (Shapoorji Pallonji Energy (Gujarat) Pvt. Ltd.)	
+Kaj/Nanawada	
+Junagarh	
+Gujarat
+2x660 =1320 MW</description>
+					<LookAt>
+						<longitude>70.81653115265095</longitude>
+						<latitude>20.75001023180721</latitude>
+						<altitude>0</altitude>
+						<heading>1.466632124538792e-007</heading>
+						<tilt>0</tilt>
+						<range>1150.292382699224</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>70.81653115265094,20.75001023180721,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 03</name>
+					<visibility>0</visibility>
+					<description>Bhatvadia power station ( Universal Crescent Power Pvt. Ltd.)	
+Bhatvadia	
+Jamnagar	
+Gujarat
+2x660 =1320 MW {3690 MW}</description>
+					<LookAt>
+						<longitude>70.06889750550253</longitude>
+						<latitude>22.46543012527211</latitude>
+						<altitude>0</altitude>
+						<heading>-0.002379015674834039</heading>
+						<tilt>0</tilt>
+						<range>1222.990761199339</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>70.06889750550253,22.46543012527211,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 05</name>
+					<visibility>0</visibility>
+					<description>Adani Power Dahej Limited ( Dahej Power plant)	
+Dahej	
+Bharuch 	
+Gujarat
+4x800 = 3,200 MW</description>
+					<LookAt>
+						<longitude>72.63895092002274</longitude>
+						<latitude>21.70406275901866</latitude>
+						<altitude>0</altitude>
+						<heading>1.276725122951973e-006</heading>
+						<tilt>0</tilt>
+						<range>2083.421065764543</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>72.63895092002274,21.70406275901866,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 20</name>
+					<description>Dhuvaran Super Thermal Power Station (Gujarat State Electricity Corporation)	
+Dhurvan 	
+Anand 	
+Gujarat
+2x800 = 1600 MW</description>
+					<LookAt>
+						<longitude>72.75486116266966</longitude>
+						<latitude>22.23714465941997</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0007848032189120558</heading>
+						<tilt>0</tilt>
+						<range>1298.16856888545</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>72.75486116266966,22.23714465941997,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Jharkhand</name>
+				<visibility>0</visibility>
+				<Placemark>
+					<name>jh10</name>
+					<visibility>0</visibility>
+					<open>1</open>
+					<description>Jindal Steel &amp; Power Ltd.	
+Nipania and Pankaghat	
+Godda	
+Jharkhand	
+660*2 MW</description>
+					<LookAt>
+						<longitude>87.21574206662574</longitude>
+						<latitude>24.82813192093025</latitude>
+						<altitude>0</altitude>
+						<heading>0.0008674909749127166</heading>
+						<tilt>0</tilt>
+						<range>1158.761052332227</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>87.2136300972859,24.8278856474795,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Jharkhand</name>
+				<visibility>0</visibility>
+				<Placemark>
+					<name>#JH03</name>
+					<visibility>0</visibility>
+					<open>1</open>
+					<description>Inland Power Ltd.	Gola	Ramgarh	Jharkhand	63MW</description>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>85.66388883333335,23.48333283333334,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>#JH02</name>
+					<visibility>0</visibility>
+					<open>1</open>
+					<description>Essar Power Jharkhand Ltd ( Tori thermal Power Plant)	Chandwa	Latehar	Jharkhand	1X600MW</description>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>84.77385483333333,23.70733083333333,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Madhya Pradesh</name>
+				<visibility>0</visibility>
+				<Placemark>
+					<name>mp19</name>
+					<visibility>0</visibility>
+					<open>1</open>
+					<description>Jaiprakash Associates Ltd.	
+Kariajhar/Majhgawan	
+Sidhi	
+Madhya Pradesh	
+60*2 MW</description>
+					<LookAt>
+						<longitude>81.33111099996181</longitude>
+						<latitude>24.32972200031916</latitude>
+						<altitude>0</altitude>
+						<heading>-1.572625262249636e-011</heading>
+						<tilt>0</tilt>
+						<range>1313.75896249521</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>81.33111099996181,24.32972200031916,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP16</name>
+					<visibility>0</visibility>
+					<open>1</open>
+					<description>Adani Pench Power Ltd	
+Chausara	
+Chhindwara	
+Madhya Pradesh	
+660*2 MW</description>
+					<LookAt>
+						<longitude>79.14137808761578</longitude>
+						<latitude>22.14005689851937</latitude>
+						<altitude>0</altitude>
+						<heading>1.393919404556698e-007</heading>
+						<tilt>0</tilt>
+						<range>2012.500056784392</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>79.14137808761578,22.14005689851937,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP12</name>
+					<visibility>0</visibility>
+					<open>1</open>
+					<description>SJK Powergen Ltd	
+Lalapur	
+Shahdol	
+Madhya Pradesh	
+660* 2 MW</description>
+					<LookAt>
+						<longitude>81.48213564589071</longitude>
+						<latitude>23.27360605151337</latitude>
+						<altitude>0</altitude>
+						<heading>-0.001396344446187213</heading>
+						<tilt>0</tilt>
+						<range>3794.96893300374</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>81.48357562267658,23.27521647467217,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP04</name>
+					<visibility>0</visibility>
+					<open>1</open>
+					<description>B.L.A. Power Pvt. Ltd.
+Niwaari, Khursipur
+Narsinghpur
+Unit Capacity 45 MW
+Total Capacity 135 MW</description>
+					<LookAt>
+						<longitude>78.78000031790363</longitude>
+						<latitude>22.92000060099203</latitude>
+						<altitude>0</altitude>
+						<heading>9.63741941390803e-008</heading>
+						<tilt>0</tilt>
+						<range>1354.649650156817</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>78.78000031790364,22.92000060099203,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP13</name>
+					<visibility>0</visibility>
+					<description>Dwarkesh Energy Limited	
+Torniya, chhippipura, Rampuri	
+Khandwa	
+Madhya Pradesh	
+660*2 MW</description>
+					<LookAt>
+						<longitude>76.76714550999103</longitude>
+						<latitude>22.00893985608723</latitude>
+						<altitude>0</altitude>
+						<heading>-0.002560565540661084</heading>
+						<tilt>0</tilt>
+						<range>1082.937648906368</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>76.76666734398067,22.00890699683803,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Orissa</name>
+				<visibility>0</visibility>
+				<Placemark>
+					<name>OR 02</name>
+					<visibility>0</visibility>
+					<description>NSL Nagapatnam Power &amp; Infratech Pvt. Ltd.	
+Talcher	
+Angule	
+Orrisa
+2x660 = 1320 MW</description>
+					<LookAt>
+						<longitude>85.17688890019234</longitude>
+						<latitude>20.90116390000294</latitude>
+						<altitude>0</altitude>
+						<heading>6.863915301132898e-011</heading>
+						<tilt>0</tilt>
+						<range>1186.363504485859</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>85.17688890019234,20.90116390000294,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OR 05</name>
+					<visibility>0</visibility>
+					<description>Tata Power Company Ltd.	
+Narajmarthapur	
+Cuttack	
+Orrisa
+1x660 = 660 MW</description>
+					<LookAt>
+						<longitude>85.75771381976738</longitude>
+						<latitude>20.43394623727956</latitude>
+						<altitude>0</altitude>
+						<heading>1.130434252468682e-006</heading>
+						<tilt>0</tilt>
+						<range>1526.536921279974</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>85.75771381976738,20.43394623727956,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OR 09</name>
+					<visibility>0</visibility>
+					<description>KVK Nilanchal Power Pvt. Ltd.	
+Kandarei	
+Cuttack	
+Orrisa
+2x350 = 700 MW</description>
+					<LookAt>
+						<longitude>85.73999999998624</longitude>
+						<latitude>20.57999999985615</latitude>
+						<altitude>0</altitude>
+						<heading>-4.836430962500462e-012</heading>
+						<tilt>0</tilt>
+						<range>1059.091684048827</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>85.73999999998624,20.57999999985615,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Tamil Nadu</name>
+				<visibility>0</visibility>
+				<Placemark>
+					<name>TN 01</name>
+					<visibility>0</visibility>
+					<description>Tamil Nadu Electricity Board (TNEB)	
+Ambattur Taluk	
+Thiruvallur	
+Tamil Nadu
+2x800 = 1600 MW</description>
+					<LookAt>
+						<longitude>80.30194433845981</longitude>
+						<latitude>13.28388904231198</latitude>
+						<altitude>0</altitude>
+						<heading>9.892589750031155e-009</heading>
+						<tilt>0</tilt>
+						<range>1164.594873050316</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>80.30194433845981,13.28388904231198,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 02</name>
+					<visibility>0</visibility>
+					<description>Udangudi Power Corporation Ltd.	
+Udangudi	
+Thoothukkudi	
+Tamil Nadu
+2x800 = 1600 MW</description>
+					<LookAt>
+						<longitude>78.06112383847677</longitude>
+						<latitude>8.434748985195567</latitude>
+						<altitude>0</altitude>
+						<heading>-4.338971349856548e-007</heading>
+						<tilt>0</tilt>
+						<range>1306.92974642342</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>78.06112383847677,8.434748985195567,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 03</name>
+					<visibility>0</visibility>
+					<description>Coastal Tamil Nadu Power Ltd.	
+Cheyyur	
+Kancheepuram
+Tamil Nadu
+6x660 = 3600 MW</description>
+					<LookAt>
+						<longitude>79.98820635047977</longitude>
+						<latitude>12.32075231048988</latitude>
+						<altitude>0</altitude>
+						<heading>-3.169425315930118e-006</heading>
+						<tilt>0</tilt>
+						<range>2079.919018078589</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>79.98820635047979,12.32075231048988,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 04</name>
+					<visibility>0</visibility>
+					<description>Nagapattinam Energy Pvt. Ltd.	
+Karapidagai North	
+Nagapatinam	
+Tamil Nadu
+1x150 = 150 MW</description>
+					<LookAt>
+						<longitude>79.79695927704027</longitude>
+						<latitude>10.58910703481453</latitude>
+						<altitude>0</altitude>
+						<heading>-4.472359276931014e-007</heading>
+						<tilt>0</tilt>
+						<range>2051.575713841877</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>79.79695927704026,10.58910703481453,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 05</name>
+					<visibility>0</visibility>
+					<description>SRM Energy Ltd	
+Chidambaram Taluk	
+Cuddalore	
+Tamil Nadu
+3x660 = 1980 MW</description>
+					<LookAt>
+						<longitude>79.65252022468806</longitude>
+						<latitude>11.50283721359924</latitude>
+						<altitude>0</altitude>
+						<heading>0.0002460405453566388</heading>
+						<tilt>0</tilt>
+						<range>2822.967256419153</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>79.65252022468806,11.50283721359924,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 06</name>
+					<visibility>0</visibility>
+					<description>Accord Energy Corporation Pvt. Ltd	
+Gummidipoondi Taluk	
+Thiruvallur	
+Tamil Nadu
+2x150 = 300 MW</description>
+					<LookAt>
+						<longitude>80.06859670007098</longitude>
+						<latitude>13.41710580002494</latitude>
+						<altitude>0</altitude>
+						<heading>1.647527324998102e-011</heading>
+						<tilt>0</tilt>
+						<range>2477.198702349581</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>80.068596700071,13.41710580002494,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 07</name>
+					<visibility>0</visibility>
+					<description>OPG Power Generation (P) Limited	
+Peria Obulapuram and Papankuppam	
+Thiruvallur	
+Tamil Nadu
+337 MW (1x77 + 1x80 + 1x180)</description>
+					<LookAt>
+						<longitude>80.09716584259726</longitude>
+						<latitude>13.43598108402576</latitude>
+						<altitude>0</altitude>
+						<heading>0.0008748918820298308</heading>
+						<tilt>0</tilt>
+						<range>1159.005983140622</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>80.09716584259726,13.43598108402576,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 08</name>
+					<visibility>0</visibility>
+					<description>Spic Electric Power Corporation Pvt. Ltd.	
+Tuticorin Port	
+Tuticorin	
+Tamil Nadu
+525 MW</description>
+					<LookAt>
+						<longitude>78.15337595277647</longitude>
+						<latitude>8.751492390078234</latitude>
+						<altitude>0</altitude>
+						<heading>-1.75694026427952e-006</heading>
+						<tilt>0</tilt>
+						<range>1833.085103069826</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>78.15337595277647,8.751492390078235,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 09</name>
+					<visibility>0</visibility>
+					<description>Ind-Barath Power (Madras) Ltd	
+Sasthavinallur, Pallakkurichi and Adiyakurichi	
+Tuticorin	
+Tamil Nadu
+660 MW</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T10:30:29.46023123Z</begin>
+							<end>2016-07-26T10:30:29.660238643Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>79.77777152229203</longitude>
+						<latitude>10.66877722451012</latitude>
+						<altitude>0</altitude>
+						<heading>0.001026012512950533</heading>
+						<tilt>0</tilt>
+						<range>3830.907685389464</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_pink-pushpin10</styleUrl>
+					<Point>
+						<coordinates>79.77777152229203,10.66877722451012,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Pre permit development</name>
+			<Folder>
+				<name>Madhya Pradesh</name>
+				<open>1</open>
+				<Placemark>
+					<name>mp20</name>
+					<open>1</open>
+					<description>Barethi Super Thermal Power	 
+Barethi	
+Chhatarpur	
+Madhya Pradesh	
+660*4 MW</description>
+					<LookAt>
+						<longitude>79.68109100012833</longitude>
+						<latitude>24.77956499998819</latitude>
+						<altitude>0</altitude>
+						<heading>5.38102143783405e-011</heading>
+						<tilt>0</tilt>
+						<range>1289.914501482655</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ltblu-pushpin1</styleUrl>
+					<Point>
+						<coordinates>79.68109100012833,24.77956499998819,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mp17</name>
+					<open>1</open>
+					<description>Welspun Energy Madhya Pradesh Ltd.	
+Bujbuja	
+Katni	
+Madhya Pradesh	
+660*3 MW</description>
+					<LookAt>
+						<longitude>80.39551700003915</longitude>
+						<latitude>23.83465900011009</latitude>
+						<altitude>0</altitude>
+						<heading>1.58137178762366e-011</heading>
+						<tilt>0</tilt>
+						<range>1397.919736148372</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ltblu-pushpin1</styleUrl>
+					<Point>
+						<coordinates>80.39551700003915,23.83465900011009,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Maharashtra</name>
+				<open>1</open>
+				<Placemark>
+					<name>mh01</name>
+					<open>1</open>
+					<description>Trombay Power Station (The Tata Power Company Ltd)	
+Mahul	
+Mumbai	
+Maharashtra	
+500*2 MW + 250 Mw</description>
+					<LookAt>
+						<longitude>72.90110049859142</longitude>
+						<latitude>19.00323560194272</latitude>
+						<altitude>0</altitude>
+						<heading>-1.213866645567255e-010</heading>
+						<tilt>0</tilt>
+						<range>1737.488515456414</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ltblu-pushpin1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>72.897682885641,19.00332399041858,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Orissa</name>
+				<Placemark>
+					<name>OR 03</name>
+					<description>Nava Bharat Ventrues Ltd.	
+Kharagprasad	
+Dhenkanal	
+Orrisa
+150 = (2x64 {120 MW} + 1x30)</description>
+					<LookAt>
+						<longitude>85.28750000000386</longitude>
+						<latitude>20.80527779951943</latitude>
+						<altitude>0</altitude>
+						<heading>1.373403268389465e-012</heading>
+						<tilt>0</tilt>
+						<range>1179.009673323637</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ltblu-pushpin1</styleUrl>
+					<Point>
+						<coordinates>85.28750000000386,20.80527779951942,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Tamil Nadu</name>
+				<Placemark>
+					<name>TN 18</name>
+					<description>KU THERMAL POWER PRIVATE		
+Thoothukkudi	
+Tamil Nadu
+2x660 = 1320 MW</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T11:12:53.268672295Z</begin>
+							<end>2016-07-26T11:12:53.468680277Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>78.02293099207607</longitude>
+						<latitude>8.917804179444255</latitude>
+						<altitude>0</altitude>
+						<heading>-1.101010169229606e-005</heading>
+						<tilt>0</tilt>
+						<range>1830.770928144863</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ltblu-pushpin1</styleUrl>
+					<Point>
+						<coordinates>78.02293099207608,8.917804179444255,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>West Bengal</name>
+				<Placemark>
+					<name>WB 04</name>
+					<description>NTPC Ltd.	
+Katoa	
+Burdwan	
+West Bengal
+2x800 = 1600 MW</description>
+					<LookAt>
+						<longitude>88.08030776491597</longitude>
+						<latitude>23.62008855519279</latitude>
+						<altitude>0</altitude>
+						<heading>4.419150325542815e-007</heading>
+						<tilt>0</tilt>
+						<range>3654.742700655767</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ltblu-pushpin1</styleUrl>
+					<Point>
+						<coordinates>88.08030776491599,23.62008855519279,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>Under construction</name>
+			<Folder>
+				<name>Andhra Pradesh</name>
+				<open>1</open>
+				<Placemark>
+					<name>AP07</name>
+					<open>1</open>
+					<description>Sri Damodaram Sanjeevaiah Thermal Power Station
+Nelaturu 	Nellore	Andhra Pradesh
+2400 MW</description>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>80.12143283333333,14.32709,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AP04</name>
+					<open>1</open>
+					<description>Meenakshi Energy Thermal Power Project
+Thammenapatriam	Nellore	Andhra Pradesh
+600MW</description>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>80.08974383333333,14.20561666666666,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AP03</name>
+					<open>1</open>
+					<description>Muthukur Mandal power station(Nelcast Energy Corporation Ltd.)
+Muthukur Mandal	Nellore	Andhra Pradesh
+1320MW</description>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>78.26683583333333,15.58862883333334,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>AP02</name>
+					<open>1</open>
+					<description>Rayalaseema Thermal Power Project
+V.V. Nagar	Kadapa	Andhra Pradesh
+600MW</description>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>78.45936383333334,14.69728183333333,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Bihar</name>
+				<Placemark>
+					<name>BI 05</name>
+					<open>1</open>
+					<description>Barh Super Thermal Power Station	
+Barh	
+Patna	
+Bihar
+3x660 = 1980 MW {3300}</description>
+					<LookAt>
+						<longitude>85.7474686242432</longitude>
+						<latitude>25.48721911842798</latitude>
+						<altitude>0</altitude>
+						<heading>-0.01100991996164485</heading>
+						<tilt>0</tilt>
+						<range>3661.039068311563</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>85.74746862424318,25.48721911842798,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BI 01</name>
+					<description>Bihar State Power Generation Company Ltd.	
+Barauni	
+Begusarai &amp; Patna	
+Bihar
+2x250 = 500 MW</description>
+					<LookAt>
+						<longitude>86.02469046915512</longitude>
+						<latitude>25.39154265188431</latitude>
+						<altitude>0</altitude>
+						<heading>-0.00199289501373745</heading>
+						<tilt>0</tilt>
+						<range>3840.410920952003</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>86.02469046915512,25.39154265188431,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BI 02</name>
+					<description>Banka Power Project	
+Siriya	
+Banka	
+Bihar
+4x660 = 2640 MW</description>
+					<LookAt>
+						<longitude>86.95659765851691</longitude>
+						<latitude>24.71470413644077</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0007238625415749658</heading>
+						<tilt>0</tilt>
+						<range>1277.409595406597</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>86.95659765851691,24.71470413644077,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>BI 03</name>
+					<description>Nabinagar Super Thermal Power Project (New Nabi Nagar Project)	
+Majhiyan and Ankorha	
+Aurangabad 	
+Bihar
+3x660 = 1980 MW</description>
+					<LookAt>
+						<longitude>84.15062226186103</longitude>
+						<latitude>24.7699997424522</latitude>
+						<altitude>0</altitude>
+						<heading>0.0001698053089743848</heading>
+						<tilt>0</tilt>
+						<range>3855.32831096831</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>84.15062226186102,24.76999974245221,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Chhattisgarh</name>
+				<Placemark>
+					<name>CH 29</name>
+					<open>1</open>
+					<description>KSK Mahanadi Power Project (Akaltara Ultra Mega Power Project)	
+Nariyara	
+Janjgir-Champa	
+Chhattisgarh
+4x600 = 1200 MW {3600 MW }</description>
+					<LookAt>
+						<longitude>82.40906399989194</longitude>
+						<latitude>21.96029583351563</latitude>
+						<altitude>0</altitude>
+						<heading>-4.039503230126257e-011</heading>
+						<tilt>0</tilt>
+						<range>1265.964244412166</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>82.40906399989196,21.96029583351563,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 28</name>
+					<open>1</open>
+					<description>Chakabura power station	
+Chakabura 	
+Korba	
+Chhattisgarh
+1x30 = 30 MW {60 MW}</description>
+					<Camera>
+						<longitude>82.55324883170711</longitude>
+						<latitude>22.39365299565272</latitude>
+						<altitude>2.456460389737716</altitude>
+						<heading>-171.3883673146723</heading>
+						<tilt>0.1486420834089353</tilt>
+						<roll>179.9999998088665</roll>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</Camera>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>82.55324881967897,22.39365292127317,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 18</name>
+					<open>1</open>
+					<description>BALCO Korba power station	
+Korba city	
+Korba	
+Chhattisgarh
+2x300 = 600 MW {1200 MW}</description>
+					<LookAt>
+						<longitude>82.74001183353522</longitude>
+						<latitude>22.39899699899521</latitude>
+						<altitude>0</altitude>
+						<heading>7.692091983252479e-011</heading>
+						<tilt>0</tilt>
+						<range>1300.790560136582</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>82.74001183353521,22.39899699899521,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 14</name>
+					<open>1</open>
+					<description>R.K.M. Powergen Pvt. Ltd. (Uchpinda power station)	
+Uchpinda	
+Janjgir-Champa	
+Chhattisgarh
+1440 MW (4x360)</description>
+					<LookAt>
+						<longitude>83.12080853407365</longitude>
+						<latitude>21.88640155647904</latitude>
+						<altitude>0</altitude>
+						<heading>8.297964193480499e-009</heading>
+						<tilt>0</tilt>
+						<range>1299.149095489887</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>83.12080853407365,21.88640155647904,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 11</name>
+					<open>1</open>
+					<description>Lanco Amarkantak Power Pvt. Ltd.	
+Amarkantak	
+Korba	
+Chhattisgarh
+2x660 = 1320 {1920 MW}</description>
+					<LookAt>
+						<longitude>82.71695900098102</longitude>
+						<latitude>22.23897483428703</latitude>
+						<altitude>0</altitude>
+						<heading>3.712900021273473e-010</heading>
+						<tilt>0</tilt>
+						<range>1317.503896808455</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>82.71695900098104,22.23897483428703,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 10</name>
+					<open>1</open>
+					<description>Athena Chhattisgarh Power Pvt Ltd.	
+Bade Dumarpali	
+Raigarh	
+Chhattisgarh
+1200 MW (2x600)</description>
+					<LookAt>
+						<longitude>83.12900154839875</longitude>
+						<latitude>21.90676574405165</latitude>
+						<altitude>0</altitude>
+						<heading>-7.134791216273089e-010</heading>
+						<tilt>0</tilt>
+						<range>1249.480489720001</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>83.12900154839873,21.90676574405165,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 09</name>
+					<open>1</open>
+					<description>SKS Ispat and Power Ltd. (Binjkote power station)	
+Binjkote and Darramura	
+Raigarh	
+Chhattisgarh
+1200 MW (4x300)</description>
+					<LookAt>
+						<longitude>83.20577900080741</longitude>
+						<latitude>22.01042183379459</latitude>
+						<altitude>0</altitude>
+						<heading>3.025947918397576e-010</heading>
+						<tilt>0</tilt>
+						<range>1232.038347552234</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>83.20577900080741,22.01042183379459,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 06</name>
+					<open>1</open>
+					<description>TRN Energy Private Limited
+Paraghat &amp; Beltukri	
+Bilaspur	
+Chhattisgarh
+600 MW (2x300)</description>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>83.23933383333333,22.13521183333333,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 04</name>
+					<description>Visa Power Ltd.
+Deveri 
+Raigarh
+Chhattisgarh
+1200 MW (2x600)</description>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>83.27911399999999,21.919374,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 05</name>
+					<description>GMR Energy Ltd.
+Raikheda
+Raipur
+Chhattisgarh
+1x685 MW</description>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>81.84917083384593,21.45094052928581,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>CH 01</name>
+					<description>NTPC Lara
+Lara
+Raigarh
+Chhattisgarh
+4000 MW (5x800)</description>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>83.45660983333333,21.757681,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Gujarat</name>
+				<Placemark>
+					<name>GU 09</name>
+					<open>1</open>
+					<description>Sikka Thermal Power Station ( Gujarat State Electricity Corporation)	
+Sikka	
+Jamnagar	
+Gujarat
+1x250 = 250 MW{740 MW}</description>
+					<LookAt>
+						<longitude>69.83010480410486</longitude>
+						<latitude>22.41977328163781</latitude>
+						<altitude>0</altitude>
+						<heading>0.001026408385710724</heading>
+						<tilt>0</tilt>
+						<range>3104.424159974188</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>69.83010480410488,22.41977328163781,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 01</name>
+					<open>1</open>
+					<description>Wanakbori Thermal Power Station ( Gujarat State Electricity Corporation)	
+Wanakbori	
+Kheda 	
+Gujarat
+800 MW {2270 MW}</description>
+					<LookAt>
+						<longitude>73.36079854294958</longitude>
+						<latitude>22.87255077142682</latitude>
+						<altitude>0</altitude>
+						<heading>0.000775706548299909</heading>
+						<tilt>0</tilt>
+						<range>2647.549457421657</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>73.36079854294958,22.87255077142682,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>GU 16</name>
+					<description>Bhavnagar Energy Company Ltd.(Bhavnagar power station)	
+Padva	
+Bhavnagar 	
+Gujarat
+2x250 = 500 MW</description>
+					<LookAt>
+						<longitude>72.27230412677417</longitude>
+						<latitude>21.6845498005673</latitude>
+						<altitude>0</altitude>
+						<heading>0.004292697321907519</heading>
+						<tilt>0</tilt>
+						<range>1189.740034678101</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>72.27230412677417,21.6845498005673,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>HR</name>
+				<Placemark>
+					<name>HR01</name>
+					<open>1</open>
+					<description>Mahatma Gandhi Power Station (Haryana Power Generation Corporation Ltd)
+Khanpur
+Jhajjar
+Haryana
+1320
+HR01</description>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>76.34888888888888,28.49,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Jharkhand</name>
+				<Placemark>
+					<name>jh05</name>
+					<open>1</open>
+					<description>National Thermal Power Corporation Ltd	
+Tandwa	
+Chatra	
+Jharkhand	
+660*3 MW</description>
+					<LookAt>
+						<longitude>85.03119644356761</longitude>
+						<latitude>23.85293986714761</latitude>
+						<altitude>0</altitude>
+						<heading>2.725491254442432e-009</heading>
+						<tilt>0</tilt>
+						<range>1770.330773340084</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>85.0311964435676,23.85293986714761,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Jharkhand</name>
+				<Placemark>
+					<name>#JH02</name>
+					<open>1</open>
+					<description>Essar Power Jharkhand Ltd ( Tori thermal Power Plant)	Chandwa	Latehar	Jharkhand	2X600MW</description>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>84.77385483333333,23.70733083333333,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>#JH01</name>
+					<open>1</open>
+					<description>Kohinoor Power Pvt. Ltd.	Saraikela	Kuchidih	Jharkhand	2X33MW</description>
+					<LookAt>
+						<longitude>86.02598038916551</longitude>
+						<latitude>22.90938447598133</latitude>
+						<altitude>0</altitude>
+						<heading>0.008869848044851927</heading>
+						<tilt>29.99694838116557</tilt>
+						<range>432.9671553454872</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>86.02726666666666,22.90982222222222,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Karnataka</name>
+				<Placemark>
+					<name>KA011</name>
+					<open>1</open>
+					<description>Yermarus power station (Raichur Power Corporation Ltd)	Yermarus 	Raichur 	Karnataka	1X800MW</description>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>77.3561203,16.2952614,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>KA01</name>
+					<open>1</open>
+					<description>JSW Energy Ltd.	Toranagallu	Bellary	Karnataka	1X100MW</description>
+					<LookAt>
+						<longitude>76.66105559887213</longitude>
+						<latitude>15.18365559071103</latitude>
+						<altitude>0</altitude>
+						<heading>-2.953995820116167e-010</heading>
+						<tilt>0</tilt>
+						<range>1895.863482885406</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>76.66105559887213,15.18365559071103,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Madhya Pradesh</name>
+				<Placemark>
+					<name>mp14</name>
+					<open>1</open>
+					<description>NTPC Ltd	
+Gangai, Umaraiya, Mehrakheda, Chorbarheta, Dongergaon and Kudari	
+Narsinghpur	
+Madhya Pradesh	
+800*2 MW</description>
+					<LookAt>
+						<longitude>79.31030136755611</longitude>
+						<latitude>22.72640913941359</latitude>
+						<altitude>0</altitude>
+						<heading>0.9870745372985557</heading>
+						<tilt>0</tilt>
+						<range>92872.35534171612</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>79.31030136755612,22.72640913941359,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP08</name>
+					<open>1</open>
+					<description>Bina Refinery Ltd. (Bharat Oman Refinery Ltd.)
+Bina, Saagar
+103 MW</description>
+					<LookAt>
+						<longitude>78.11335462320287</longitude>
+						<latitude>24.21673206671591</latitude>
+						<altitude>0</altitude>
+						<heading>1.001410936286853</heading>
+						<tilt>0</tilt>
+						<range>11538.96062367734</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>78.11674902666807,24.228053387892,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP06</name>
+					<open>1</open>
+					<description>Shree Singaji Thermal Power Project
+Dongalia, Khandwa
+600*2 MW</description>
+					<LookAt>
+						<longitude>76.53438435831259</longitude>
+						<latitude>22.10224138584956</latitude>
+						<altitude>0</altitude>
+						<heading>4.612316125245329e-006</heading>
+						<tilt>0</tilt>
+						<range>1470.483565745032</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>76.53438435831259,22.10224138584956,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP04</name>
+					<open>1</open>
+					<description>B.L.A. Power Pvt. Ltd.
+Niwaari, Khursipur
+Narsinghpur
+Unit Capacity 45 MW
+Total Capacity 135 MW</description>
+					<LookAt>
+						<longitude>78.78000031790363</longitude>
+						<latitude>22.92000060099203</latitude>
+						<altitude>0</altitude>
+						<heading>9.63741941390803e-008</heading>
+						<tilt>0</tilt>
+						<range>1354.649650156817</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>78.78000031790364,22.92000060099203,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP09</name>
+					<description>Jhabua Power Ltd.	
+Barela	
+Seoni	
+600 MW +660 MW</description>
+					<LookAt>
+						<longitude>79.90731809518316</longitude>
+						<latitude>22.7383543500765</latitude>
+						<altitude>0</altitude>
+						<heading>-0.001374578042886607</heading>
+						<tilt>0</tilt>
+						<range>4214.511920069335</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>79.91075854118242,22.73757092020655,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>MP15</name>
+					<description>Chitrangi Power Pv t. Ltd.	
+Chitrangi	
+Singrauli	
+Madhya Pradesh	
+660*6 MW</description>
+					<LookAt>
+						<longitude>82.64686118887964</longitude>
+						<latitude>24.36421070666616</latitude>
+						<altitude>0</altitude>
+						<heading>0.02733136827148524</heading>
+						<tilt>0</tilt>
+						<range>691.7199509088437</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>82.64686118887963,24.36421070666616,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Maharashtra</name>
+				<Placemark>
+					<name>mh19</name>
+					<open>1</open>
+					<description>RattanIndia Power Ltd (formerly Indiabulls Power Ltd)	
+Nandgaonpethj	Amravati	
+Maharashtra	
+270*10 MW</description>
+					<LookAt>
+						<longitude>77.901241799993</longitude>
+						<latitude>21.08031559992212</latitude>
+						<altitude>0</altitude>
+						<heading>-2.516613891708007e-012</heading>
+						<tilt>0</tilt>
+						<range>1363.90921065242</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>77.901241799993,21.08031559992212,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh17</name>
+					<open>1</open>
+					<description>Lanco Vidarbha Thermal Power Ltd.	
+Mandva	
+Wardha	
+Maharashtra	
+660*2 MW</description>
+					<LookAt>
+						<longitude>72.86098221059639</longitude>
+						<latitude>19.11233933627246</latitude>
+						<altitude>0</altitude>
+						<heading>-5.069195006517478e-008</heading>
+						<tilt>0</tilt>
+						<range>1225.756623118712</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>72.86098221059638,19.11233933627246,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh10</name>
+					<open>1</open>
+					<description>Mahagenco		
+Chandrapur	
+Maharashtra	
+500*5+ 210*4  MW</description>
+					<LookAt>
+						<longitude>79.29303120013682</longitude>
+						<latitude>20.00227709946362</latitude>
+						<altitude>0</altitude>
+						<heading>4.679907915238937e-011</heading>
+						<tilt>0</tilt>
+						<range>1303.408460080463</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>79.29303120013681,20.00227709946362,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh07</name>
+					<open>1</open>
+					<description>Koradi Thermal Power Station  (MSPGCL)	 
+Koradi  	
+Nagpur	
+Maharashtra	
+200 mw +210*2 mw + 660*3 MW</description>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>79.09194983333333,21.23598183333333,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh03</name>
+					<open>1</open>
+					<description>Solapur power station	
+Fatatewadi	
+ Solapur	
+Maharashtra	
+660*2 MW</description>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>75.98319983333333,17.551296,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh02</name>
+					<open>1</open>
+					<description>Mauda power station	
+Mouda	 
+Solapur	
+Maharashtra	
+500*2 MW, 660*2 MW</description>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>79.39654083333333,21.18074,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>mh18</name>
+					<description>Nasik RattanIndia Thermal Power Project	
+Sinnar	
+Nasik	
+Maharashtra	
+270*5 MW</description>
+					<LookAt>
+						<longitude>74.0817492997455</longitude>
+						<latitude>19.86665940018591</latitude>
+						<altitude>0</altitude>
+						<heading>-8.648484775968558e-011</heading>
+						<tilt>0</tilt>
+						<range>1623.578534354177</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>74.08170117336779,19.86685553559692,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Orissa</name>
+				<Placemark>
+					<name>OR 08</name>
+					<open>1</open>
+					<description>Ind-Barath Energy (Utkal) Ltd.	
+Shajbahal	
+Jharsuguda	
+Orrisa
+1x350 = 350 MW {700}</description>
+					<LookAt>
+						<longitude>83.95438501461388</longitude>
+						<latitude>20.65326594954495</latitude>
+						<altitude>0</altitude>
+						<heading>0.008602333712488898</heading>
+						<tilt>0</tilt>
+						<range>11872.86700926358</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>83.95438501461388,20.65326594954495,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OR 01</name>
+					<description>NTPC Ltd.	
+Darlipali and Raidihi	
+Sundargarh	
+Orrisa
+2x800 = 1600 MW</description>
+					<LookAt>
+						<longitude>83.95861100007328</longitude>
+						<latitude>21.8825000000162</latitude>
+						<altitude>0</altitude>
+						<heading>2.731818172842533e-011</heading>
+						<tilt>0</tilt>
+						<range>1330.390212115046</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>83.95861100007328,21.8825000000162,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>OR 06</name>
+					<description>Lanco Babandh Power Private Ltd.	
+Khurunti	
+Dhenkanal	
+Orrisa
+2x660 = 1320 MW</description>
+					<LookAt>
+						<longitude>85.32287099999705</longitude>
+						<latitude>20.81580599987612</latitude>
+						<altitude>0</altitude>
+						<heading>-1.039047457500613e-012</heading>
+						<tilt>0</tilt>
+						<range>1058.62755261692</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>85.32287099999705,20.81580599987612,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Rajasthan</name>
+				<Placemark>
+					<name>RA 01</name>
+					<open>1</open>
+					<description>Rajasthan Rajya Vidyut Utpadan Nigam Ltd.	
+Thukrana	
+Sriganaganagar	
+Rajasthan
+2x660 = 1320 MW {2850 MW}</description>
+					<LookAt>
+						<longitude>74.02043705763539</longitude>
+						<latitude>29.17806057016447</latitude>
+						<altitude>0</altitude>
+						<heading>6.70154040093113e-005</heading>
+						<tilt>0</tilt>
+						<range>6726.388093059223</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>74.02043705763539,29.17806057016447,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>RA 02</name>
+					<description>Rajasthan Rajya Vidyut Utpadan Nigam Ltd.	
+Chhabra	
+Baran	
+Rajasthan
+2x660 = 1320 MW {2320 MW}</description>
+					<LookAt>
+						<longitude>77.03672307368244</longitude>
+						<latitude>24.6374329304469</latitude>
+						<altitude>0</altitude>
+						<heading>0.002900415275386723</heading>
+						<tilt>0</tilt>
+						<range>5370.696596565985</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>77.03672307368245,24.6374329304469,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Tamil Nadu</name>
+				<Placemark>
+					<name>TN 13</name>
+					<open>1</open>
+					<description>Coastal Energen Pvt Ltd.	
+Melamaruthur	
+Thoothukkudi	
+Tamil Nadu
+600 MW {1200 MW}</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T10:40:38.78612409Z</begin>
+							<end>2016-07-26T10:40:38.986130932Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>78.14462344437449</longitude>
+						<latitude>8.914052958647615</latitude>
+						<altitude>0</altitude>
+						<heading>-9.429240152735051e-005</heading>
+						<tilt>0</tilt>
+						<range>2569.329928084162</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>78.14462344437449,8.914052958647615,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>TN 10</name>
+					<description>Tridem Port and Power Co. Ltd.	
+Keelapidagai	
+Nagapattinam	
+Tamil Nadu
+1820 MW = (1x500 + 2x660)</description>
+					<LookAt>
+						<gx:TimeSpan>
+							<begin>2016-07-26T10:34:09.080792162Z</begin>
+							<end>2016-07-26T10:34:09.280797864Z</end>
+						</gx:TimeSpan>
+						<gx:ViewerOptions>
+							<gx:option name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option enabled="0" name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>79.83323484088992</longitude>
+						<latitude>10.75893663008315</latitude>
+						<altitude>0</altitude>
+						<heading>0.0006050214444765768</heading>
+						<tilt>0</tilt>
+						<range>1172.803749729434</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>79.83005545662293,10.75924736111515,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>West Bengal</name>
+				<Placemark>
+					<name>WB 01</name>
+					<open>1</open>
+					<description>DVC	
+Raghunathpur	
+Purulia
+3x600 = 1800 MW {2400 MW}</description>
+					<LookAt>
+						<longitude>86.66201944435905</longitude>
+						<latitude>23.62129809951309</latitude>
+						<altitude>0</altitude>
+						<heading>0.008599762935292394</heading>
+						<tilt>0</tilt>
+						<range>3413.928385699468</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>86.66201944435903,23.62129809951309,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>WB 02</name>
+					<description>West Bengal Power Development Corporation Ltd	Sagardighi	
+Murshidabad	
+West Bengal
+2x500 = 1000 MW {1600 MW}</description>
+					<LookAt>
+						<longitude>88.09985649568856</longitude>
+						<latitude>24.36979847113741</latitude>
+						<altitude>0</altitude>
+						<heading>0.0003026335726409824</heading>
+						<tilt>0</tilt>
+						<range>4280.439875711069</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_grn-pushpin30</styleUrl>
+					<Point>
+						<coordinates>88.09985649568856,24.36979847113741,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
