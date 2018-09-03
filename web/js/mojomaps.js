@@ -32,7 +32,7 @@ function setMapLayersFromGoogleDoc(map,data,tabletop){
 		baselayer=getBaseLayerGD(data)
 		shapelayers=getShapeLayersGD(data)
 		pointlayers=getPointLayersGD(data)
-    //layercontrol = L.control.layers().addTo(map)
+        //layercontrol = L.control.layers().addTo(map)
 
 		layergroups={baselayers:{"Base Map":baselayer},overlays:{}}
 		var options = {
@@ -40,15 +40,15 @@ function setMapLayersFromGoogleDoc(map,data,tabletop){
 					groupCheckboxes: true
 		};
 
-    for (var i=0;i<groupnames.length;i++){
-          layergroups['overlays'][groupnames[i]]=L.layerGroup()
+        for (var i=0;i<groupnames.length;i++){
+            layergroups['overlays'][groupnames[i]]=L.layerGroup()
 					//layercontrol.addOverlay(layergroups['overlays'][groupnames[i]],groupnames[i]);
-    }
-    //console.log(layergroups)
-			layercontrol=L.control.groupedLayers().addTo(map);
-    if (baselayer.display=="TRUE"){
-		//map=addBaseMapLayer(mapdiv,baselayer)
-			addBaseMapLayer(map,baselayer)
+        }
+        //console.log(layergroups)
+		layercontrol=L.control.groupedLayers().addTo(map);
+        if (baselayer.display=="TRUE"){
+		  //map=addBaseMapLayer(mapdiv,baselayer)
+                addBaseMapLayer(map,baselayer)
 		}
 		$(shapelayers).each(function(){
 			if(this.display=="TRUE"){
@@ -56,18 +56,19 @@ function setMapLayersFromGoogleDoc(map,data,tabletop){
 				//layercontrol.addOverlay(layergroups['overlays'])
 			}
 		});
-		for (var i=0;i<groupnames.length;i++){
-          layercontrol.addOverlay(layergroups['overlays'][groupnames[i]],groupnames[i]);
-    }
-
+		
 		$(pointlayers).each(function(){
 			if(this.display=="TRUE"){
 				if (this.defaultmarker==""){
 					this.defaultmarker="images/mojomapicon.png"
 				}
-				addPointLayerURL(map,this.url,this.defaultmarker,this.layername,this.callbackfuncname)
+				addPointLayerURL(map,this.url,this.defaultmarker,this.layername,this.groupname,this.callbackfuncname)
 			}
 		});
+        for (var i=0;i<groupnames.length;i++){
+          layercontrol.addOverlay(layergroups['overlays'][groupnames[i]],groupnames[i]);
+        }
+
         //console.log(baselayers)
         //console.log(overlays)
 
@@ -216,7 +217,8 @@ function addShapeLayer(map,featureCollection,layername){
 function addShapeLayer(map,featureCollection,layername,layergroup,style){
 	log("Adding shape layer " + layername)
 	//console.log(featureCollection)
-	$.ajax({
+	console.log(layername)
+    $.ajax({
                   url: featureCollection,
                   beforeSend: function(xhr){
                     if (xhr.overrideMimeType)
@@ -227,19 +229,16 @@ function addShapeLayer(map,featureCollection,layername,layergroup,style){
                   dataType: 'json',
                   data: null,
                   success:  function(data, textStatus, request) {
-					           lstyle=JSON.parse(style)
-					           //console.log(lstyle)
-                               overlay=L.geoJson(data, { style: lstyle
+					               lstyle=JSON.parse(style)
+					               //console.log(lstyle)
+                                   overlay=L.geoJson(data, { style: lstyle
 						          });
-                      overlay.addTo(map);
-                      console.log(layergroups['overlays'][layergroup])
-											if(layergroups['overlays'][layergroup]){
-												layergroups['overlays'][layergroup].addLayer(overlay)
-												
-
-												//layercontrol.addOverlay(overlay,layername,layergroup);
-
-											}
+                                  overlay.addTo(map);
+                                  //console.log(layergroups['overlays'][layergroup])
+                                  if(layergroups['overlays'][layergroup]){
+                                    layergroups['overlays'][layergroup].addLayer(overlay)
+                                      //layercontrol.addOverlay(overlay,layername,layergroup);
+                                  }
 
                   }
                 });
@@ -251,16 +250,35 @@ function addShapeLayer(map,featureCollection,layername,layergroup,style){
 
 
 //Get points datafrom sheet and add to map
-function addPointLayerURL(map,url,defaultmarker,layername,callbackfuncname="addPointLayer"){
+function addPointLayerURL(map,url,defaultmarker,layername,groupname,callbackfuncname="addPointLayer"){
 	log("Adding points layer " + layername)
 	if (callbackfuncname==""){
 			callbackfuncname="addPointLayer"
 	}
 	log("Calling function " + callbackfuncname)
-	Tabletop.init( { key: url,
-                   callback: function(data,tabletop){window[callbackfuncname](map,defaultmarker,data,tabletop)},
-                   simpleSheet: true } )
-
+	if ((url.match(/.geojson/))){
+        console.log("Point layer is in geojson format")
+             $.ajax({
+                  url: url,
+                  beforeSend: function(xhr){
+                    if (xhr.overrideMimeType)
+                    {
+                      xhr.overrideMimeType("application/json");
+                    }
+                  },
+                  dataType: 'json',
+                  data: null,
+                  success:  function(data, textStatus, request) {
+					               featureCollection=data;
+                                   addPointLayer(map,defaultmarker,featureCollection,groupname)
+                  }
+                });
+        }
+    else{
+        Tabletop.init( { key: url, 
+                        callback: function(data,tabletop){featureCollection=getPointsAsGeoJson(data);window[callbackfuncname](map,defaultmarker,featureCollection,groupname,tabletop)},
+                        simpleSheet: true } )
+    }
 
 }
 
@@ -268,9 +286,7 @@ function addPointLayerURL(map,url,defaultmarker,layername,callbackfuncname="addP
 
 
 //Add a point layer to the map
-function addPointLayer(map,defaultmarker,data,tabletop){
-
-	featureCollection=getPointsAsGeoJson(data)
+function addPointLayer(map,defaultmarker,featureCollection,groupname,tabletop=null){
 	if(map==mapdiv){
 		//whattodoifnobaselayer
 		console.log(map)
@@ -292,6 +308,10 @@ function addPointLayer(map,defaultmarker,data,tabletop){
 
 								}
 				}).addTo(map)
+                 if(layergroups['overlays'][groupname]){
+                                    layergroups['overlays'][groupname].addLayer(markerlayer)
+                                      //layercontrol.addOverlay(overlay,layername,layergroup);
+                                  }
 			//console.log(map)
 	}
 
