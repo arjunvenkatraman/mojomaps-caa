@@ -1,0 +1,52 @@
+<html>
+	<head>
+	<meta charset="utf-8"/>
+	<!--Including cloud versions of Leaflet, D3 and JQuery Scripts-->
+	<!-- Current Versions - Leaflet 1.2.0, D3 V4, JQuery 2.1.1
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	-->
+
+	<!--Including Local Versions of Leaflet, D3 and JQuery Scripts -->
+	<!-- Current Versions - Leaflet 1.2.0, D3 V4.12.0, JQuery 3.2.1-->
+	<link rel="stylesheet" href="leaflet/leaflet.css" />
+	 <link rel="stylesheet" href="css/leaflet.groupedlayercontrol.min.css" />
+	<script src="leaflet/leaflet.js"></script>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/d3.js"></script>
+
+	<!--Including our own copy of jsoma's tabletop script-->
+	<script src="js/tabletop.js"></script>
+
+
+	<!--Including our own stylesheet and script -->
+	<link rel="stylesheet" href="css/mojomaps.css" />
+	<script src="js/mojomaps.js"></script>
+	<script src="js/leaflet.groupedlayercontrol.min.js"></script>
+
+
+	<title>Uttarakhand - Proposed Roads</title>
+</head>
+<body>
+	<a id="maplink" href="" target="_blank">See the source google sheet for this map</a>
+    <div id="map"></div>
+	<div class="logdiv" id="log" width=0% height=0px></div>
+
+		<script>
+			var mapdiv="map"
+			sheetkey="14g_9swvqPLoBKxBfcEKkNoDwYCAjhrLi_YFjR5f98GA"
+			var url="https://docs.google.com/spreadsheets/d/"+sheetkey+"/pubhtml"
+			//var url="https://spreadsheets.google.com/feeds/list/"+spreadsheet+"/od6/public/basic?alt=json"
+			var mymap = L.map('map').setView([25.509815,77.201317 ], 6);
+			//setupMojoMap(mapdiv,url,urltype="google")
+            groupnames=['existing','proposed','alternate','muckdisposal','campa']
+			markers={}
+			setupMojoMap(mymap,url,urltype="google")
+			//setupAirbenderMap(mymap,url,urltype="google")
+			console.log(mymap)
+             maplink=document.getElementById("maplink")
+            console.log(url)
+            maplink.setAttribute("href",url)
+		</script>
