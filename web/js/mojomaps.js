@@ -301,7 +301,7 @@ function addPointLayer(map,defaultmarker,featureCollection,groupname,tabletop=nu
 									markers[feature['properties']['devname']]=layer
 									devicon=L.divIcon({
 												className : "icon-div",
-												html: '<img src="'+defaultmarker+'" style="height: 30;width: 30;"/>'
+												html: '<img src="'+defaultmarker+'" style="height: 20;width: 20;"/>'
 												})
 									layer.setIcon(devicon)
 									//console.log(layer.id)
